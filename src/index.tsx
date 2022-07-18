@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 import Navbar from './sections/navbar/navbar';
 import Hero from './sections/hero/hero';
@@ -31,10 +33,13 @@ function HomePage() {
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HashRouter> */}
-      {/* <App /> */}
-      <HomePage />
-    {/* </HashRouter> */}
+    <HashRouter>
+      <Fragment>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Fragment>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
