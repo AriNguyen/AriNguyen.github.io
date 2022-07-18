@@ -17,8 +17,6 @@ export default function App() {
       <Fragment>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/me" element={<HomePage />}>
-          </Route>
         </Routes>
       </Fragment>
     // </Router>
@@ -27,7 +25,7 @@ export default function App() {
 
 function HomePage() {
   return (
-    <div>
+    <div className='home'>
       <Navbar />
       <Hero />
       <About />
