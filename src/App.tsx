@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import './style/App.scss';
 
-function App() {
+import Navbar from './sections/navbar/navbar';
+import Hero from './sections/hero/hero';
+import About from './sections/about/about';
+import Experience from './sections/experience/experience';
+import Projects from './sections/projects/projects';
+import Blogs from './sections/blogs/blogs';
+import Contact from './sections/contact/contact';
+import Footer from './sections/footer/footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Fragment>
+        <Routes>
+          <Route path="/" element={<HomePage />}>
+          </Route>
+        </Routes>
+      </Fragment>
+    </Router>
   );
 }
 
-export default App;
+function HomePage() {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Blogs />
+      <Contact />
+      <Footer />
+    </div>
+  )
+}

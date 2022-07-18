@@ -1,0 +1,117 @@
+@import '../../style/App.scss';
+
+#projects {
+  padding: 20px 0 40px 0;
+
+  .projects__nav {
+    ul {
+      display: flex;
+
+      li {
+        padding: 5px 15px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+
+      li:hover {
+        background-color: $main-color;
+      }
+    }
+
+    .projects__nav-active {
+      background-color: $main-color;
+    }
+  }
+
+  .projects__filter {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    max-width: 200px;
+    float: right;
+    position: relative;
+    padding: 8px 10px;
+
+    p {
+      padding-right: 10px;
+    }
+
+    .projects__filter-menu {
+      background-color: $light-color;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      border-radius: 5px;
+      z-index: 999;
+
+      p {
+        padding: 8px 0;
+        margin: 2px 0;
+        transition: 0.3s ease;
+      }
+
+      p:hover {
+        background-color: $main-color;
+      }
+    }
+  }
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed oprefixing */
+  display: flex;
+  margin-left: -30px;
+  /* gutter size offset */
+  width: auto;
+}
+
+.gallery {
+  padding-left: 30px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+.gallery>div {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  #projects {
+    .projects__nav {
+      ul {
+        justify-content: center;
+      }
+    }
+
+    .projects__filter {
+      justify-content: center;
+      max-width: 200px;
+      margin: 30px auto;
+      float: none;
+
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #projects {
+    .projects__nav {
+      ul {
+        li {
+          padding: 5px 5px;
+          margin-right: 5px;
+        }
+
+      }
+    }
+  }
+}
