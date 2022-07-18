@@ -16,7 +16,7 @@ export default function App() {
     <Router>
       <Fragment>
         <Routes>
-          <Route path="/" element={<HomePage />}>
+          <Route path="/me" element={<HomePage />}>
           </Route>
         </Routes>
       </Fragment>
