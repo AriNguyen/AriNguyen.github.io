@@ -37,7 +37,7 @@ ReactDOM.render(
       <Fragment>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/hi" element={<HomePage />} />
+          <Route path="hi" element={<HomePage />} />
         </Routes>
       </Fragment>
     </HashRouter>
