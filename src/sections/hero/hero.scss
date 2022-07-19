@@ -1,4 +1,5 @@
 @import '../../style/App.scss';
+@import '../../style/colors.scss';
 
 .hero {
   padding-top: 240px;
@@ -19,6 +20,46 @@
     height: auto;
     float: right;
   }
+}
+
+.social-test {
+  // display: table-cell;
+  padding-top: 50px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+
+  .social {
+    padding-left: 0px;
+  }
+
+  .social-button {
+    color: rgb(114, 114, 114);
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 1%;
+    border: 1px solid rgb(114, 114, 114);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+
+    &:hover {
+      color: $main-color;
+      border: 1px solid black;
+    }
+  }
+}
+
+.social:hover>li {
+  opacity: 0.5;
+}
+
+.social:hover>li:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1080px) {

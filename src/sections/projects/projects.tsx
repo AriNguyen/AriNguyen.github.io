@@ -41,18 +41,18 @@ export default function Projects() {
       title: "SmartFridge App",
       tag: ["webMobile"],
     },
-    {
-      id: "5",
-      preview: Preview5,
-      title: "",
-      tag: ["robotics"],
-    },
-    {
-      id: "6",
-      preview: Preview6,
-      title: "Todo List Speech Recognition Web App",
-      tag: ["webMobile"],
-    },
+    // {
+    //   id: "5",
+    //   preview: Preview5,
+    //   title: "",
+    //   tag: ["robotics"],
+    // },
+    // {
+    //   id: "6",
+    //   preview: Preview6,
+    //   title: "Todo List Speech Recognition Web App",
+    //   tag: ["webMobile"],
+    // },
   ];
 
   const [filterResult, setFilterResult] = useState(projects);

@@ -1,13 +1,14 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Row, Col } from "react-flexbox-grid";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiDevpost } from 'react-icons/si';
 import { useSpring, animated, config } from 'react-spring'
 
 import Ava from '../../assets/hero/ava_white.png';
 import Button from '../../components/button/button';
 
 import "./hero.scss";
-import {COLORS} from "../../style/colors";
+import { COLORS } from "../../style/colors";
 
 export default function Hero() {
   const [flip, set] = useState(false)
@@ -38,21 +39,28 @@ export default function Hero() {
                 Computer Science Student
               </h1>
               <p className="font15">
-                Pre-junior Computer Science Major at Drexel.
+                Rising Senior at Drexel University.<br />
                 Interested in the field of AI/ML and Robotics.
               </p>
               <Row className="hero-row">
-                <Button target='' label="SEND MESSAGE"></Button>
-                <Button target='' label="DOWNLOAD CV"></Button>
+                <Col md={12} lg={4}>
+                  <Button target='' label="SEND MESSAGE"></Button>
+                </Col>
+                <Col md={12} lg={4}>
+                  <Button target='' label="DOWNLOAD CV"></Button>
+                </Col>
               </Row>
-              <Row className="hero-row">
-                <div id="social-test">
-                  <h2>Free Clean Social Buttons</h2>
-                  <ul className="social">
-                    <li><FaGithub /></li>
-                    <li><FaLinkedin /></li>
-                  </ul>
-                </div>
+              <Row className="hero-row social-test">
+                  {/* <ul className="social"> */}
+                  <li>
+                    <a className='social-button' href='http://github.com/AriNguyen'><FaGithub /></a>
+                  </li>
+                  <li>
+                    <a className='social-button' href='http://linkedin.com/in/aringuyen/'><FaLinkedin /></a>
+                  </li>
+                  <li>
+                    <a className='social-button' href='http://devpost.com/AriNguyen'><SiDevpost/></a>
+                  </li>
               </Row>
             </div>
           </Col>

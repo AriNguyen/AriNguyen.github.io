@@ -16,94 +16,52 @@ export default function Experience() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2011 - present"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentStyle={{ background: '#fbdb6b', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #fbdb6b' }}
+            date="Mar 2021 - Sep 2021"
+            iconStyle={{ background: '#fbdb6b', color: '#000' }}
             icon={<MdWork />}
           >
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Engineer Co-op </h3>
+            <h3 className="vertical-timeline-element-title">Collaborative Asset Platform LLC</h3>
+            <h4 className="vertical-timeline-element-subtitle">Santa Clara, California, United States (remote)</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            • Research different state-of-art NLP models (i.e. Stanford CoreNLP, BERT, FinBERT, RoBERTa) for sentiment analysis on 200+ pages finance reports from 100+ companies <br/>
+            • Led development of infrastructure to support training and deploying machine learning model, reducing training time by 70% (Python, TensorFlow 2, AWS S3/SageMaker)
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentStyle={{ background: '#fbdb6b', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #fbdb6b' }}
+            date="Sep 2019 - Mar 2020"
+            iconStyle={{ background: '#fbdb6b', color: '#000' }}
             icon={<MdWork />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <h3 className="vertical-timeline-element-title">Software Engineer Co-op - Process Team</h3>
+            <h3 className="vertical-timeline-element-title">Kulicke & Soffa</h3>
+            <h4 className="vertical-timeline-element-subtitle">Fort Washington, Pennsylvania</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+            • Developed and tested Python big data pipeline, improving analysis of 8,000+ rows CSV and Excel dataset from robotic sensors by 75%<br/>
+            • Initiated and built full-stack web app to automate evaluation of robotic system performance used in 2 research centers in less than 3 months (Pandas, Matplotlib, Javascript, Django, Bootstrap, Bokeh, HoloViews)
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<MdWork />}
-          >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<MdWork />}
-          >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="April 2013"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            iconStyle={{ background: '#000', color: '#fff' }}
+            contentStyle={{ background: '#000', color: '#fff' }}
             icon={<IoMdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+            <h3 className="vertical-timeline-element-title">Drexel University</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bachelor of Science - BS,</h4>
             <p>
-              Strategy, Social Media
+              2018 - 2023
             </p>
+
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<IoMdSchool />}
-          >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<IoMdSchool />}
-          >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-            <p>
-              Creative Direction, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            icon={<IoMdSchool />}
-          />
         </VerticalTimeline>
       </div>
     </div>
