@@ -1,4 +1,7 @@
 import React from "react";
+import ReactMarkdown from 'react-markdown'
+import Fade from "react-reveal/Fade";
+
 
 import "./blogBox.scss"
 
@@ -8,12 +11,14 @@ type blogBoxProps = {
     title: string,
     description: string,
     date: string
+    blogPath: string,
   };
+  onClick: React.MouseEventHandler<HTMLDivElement>
 }
 
-export default function blogBox({article}: blogBoxProps) {
+export default function blogBox({article, onClick}: blogBoxProps) {
   return (
-    <div className="blog__box">
+    <div className="blog__box" onClick={onClick}>
     <div className="blog__image">
       <img src={article.image} alt="blog story" />
       <div className="blog__hover flex-center">

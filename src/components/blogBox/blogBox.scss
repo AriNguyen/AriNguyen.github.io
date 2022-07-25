@@ -4,9 +4,10 @@
   background-color: $white-color;
   width: 100%;
   max-width: 370px;
-  min-height: 460px;
+  // min-height: 460px;
   position: relative;
   margin: 30px auto;
+  // overflow-y: auto;
 
   .blog__image {
     width: 100%;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Swiper from "react-id-swiper";
 
 import './blogs.scss'
@@ -6,34 +6,29 @@ import "swiper/css/swiper.css";
 
 import Title from "../../components/title/title"
 import BlogBox from "../../components/blogBox/blogBox"
+// import Modal from "../../components/contactModal/modal";
+import BlogModal from "../../components/blogBox/blogModal";
 
-import Preview01 from "../../assets/blogs/blog1/preview.png";
+import Preview01 from "../../assets/blogs/blog1/hoyahacks.jpg";
+// declare module '*.md'
+// import md from "../../assets/blogs/blog1/blog1.md";
 
 const blogsFolderPath = "../../assets/blogJsons"
 
 export default function Blogs() {
-  let stories = [ 
+  const [successModal, setSuccessModal] = useState(false);
+  const [errorModal, setErrorModal] = useState(false);
+  const [message, setMessage] = useState("");
+  const [sending, setSending] = useState(false);
+  let stories = [
     {
       image: Preview01,
       id: "1",
-      title: "title1",
-      description: "description1",
-      date: "",
+      title: "My Story of Attending 14 Hackathons",
+      description: "description placeholder",
+      date: "July 23rd, 2022",
+      blogPath: "src/assets/blogs/blog1/blog1.md"
     },
-    {
-      image: Preview01,
-      id: "2",
-      title: "title2",
-      description: "description2",
-      date: "",
-    },
-    {
-      image: Preview01,
-      id: "3",
-      title: "title3",
-      description: "description3",
-      date: "",
-    }
   ];
   const params = {
     grabCursor: true,
@@ -63,30 +58,38 @@ export default function Blogs() {
       },
     },
   };
-  // let mydata = JSON.parse(blogsFolderPath + "blog1.json");
-  // let obj = parseJsonBlog(mydata);
+
+  let closeModal = () => {
+    setSuccessModal(false);
+    setErrorModal(false);
+  };
+
+  let showSuccessModal = () => {
+    setSuccessModal(true);
+    setSending(false);
+    // resetForm();
+  };
 
   return (
     <div className="blogs" id="blogs">
+      {successModal &&
+        <BlogModal path="" closeModal={closeModal} onKeyDown={closeModal} />
+      }
       <div className="wrapper">
         <Title title="BLOGS." />
         <p className="font12">
           Subtitle
         </p>
         <div className="padding30">
-          <Swiper {...params}>
+          {/* <Swiper {...params}> */}
             {stories && stories.map((story) => (
               <div>
-                <BlogBox article={story} />
+                <BlogBox article={story} onClick={showSuccessModal}/>
               </div>
             ))}
-          </Swiper>
+          {/* </Swiper> */}
         </div>
       </div>
     </div>
   )
-}
-
-function parseJsonBlog(json: JSON) {
-
 }
