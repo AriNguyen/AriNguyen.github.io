@@ -77,9 +77,9 @@ export default function Blogs() {
       }
       <div className="wrapper">
         <Title title="BLOGS." />
-        <p className="font12">
+        {/* <p className="font12">
           Subtitle
-        </p>
+        </p> */}
         <div className="padding30">
           {/* <Swiper {...params}> */}
             {stories && stories.map((story) => (

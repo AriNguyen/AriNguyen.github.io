@@ -27,7 +27,7 @@ export default function blogBox({article, onClick}: blogBoxProps) {
     </div>
     <div className="blog__info">
       <h4 className="font15 weight800">{article.title}</h4>
-      <p className="font12 weight500 padding10">{article.description}</p>
+      {/* <p className="font12 weight500 padding10">{article.description}</p> */}
       <p className="font12 weight500">{article.date}</p>
     </div>
   </div>
