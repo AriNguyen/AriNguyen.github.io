@@ -1,4 +1,5 @@
 # My Story of Attending 14 Hackathons
+---
 Published: July 23rd, 2022
 
 I didn't know what a hackathon is until seeing someone winning their first place award on LinkedIn. I didn't know how to code before college and hadn't built any project at that time. I get motivated to attend a hackathon and win something when I see people sharing their winning experience on LinkedIn. 
