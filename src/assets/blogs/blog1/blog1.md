@@ -17,9 +17,11 @@ YESSSS, I won the first hackathon in my second time attending the hackathon. I p
 The inspiration of this project is to help people living with paralysis communicate. Inspired to help these people make a normal conversation, we created a desktop app to help severely paralytic people speak out loud about their thoughts using their eyes and head movements.
 
 ![The First Hackathon Win](https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/blogs/blog1/hackru.jpg?raw=true)
+
 *First Hackathon Win at HackRU Fall 2019*
 
 ![GUI Speak Your Mind](https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/blogs/blog1/speak-your-mind.jpg?raw=true)
+
 *The interface of our project*
 
 ## The Second Hackathon Win
