@@ -4,18 +4,20 @@
   background-color: $white-color;
   width: 100%;
   max-width: 370px;
-  // min-height: 460px;
+  min-height: 400px;
   position: relative;
   margin: 30px auto;
   // overflow-y: auto;
 
   .blog__image {
     width: 100%;
-    height: auto;
+    min-height: 250px;
     position: relative;
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;
     }
 
     .blog__hover {

@@ -134,18 +134,18 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .blogModal {
     display: flex;
     justify-content: left;
     align-items: left;
-    width: 90%;
+    width: 76%;
     // height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 200;
     // text-align: center;
-    margin: 0 5%;
+    margin: 0 12%;
   }
 }

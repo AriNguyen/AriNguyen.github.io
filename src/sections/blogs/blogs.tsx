@@ -10,14 +10,25 @@ import BlogBox from "../../components/blogBox/blogBox"
 import BlogModal from "../../components/blogBox/blogModal";
 
 import Preview01 from "../../assets/blogs/blog1/hoyahacks.jpg";
+import Preview02 from "../../assets/blogs/blog2/hackru.jpg";
 // declare module '*.md'
 // import md from "../../assets/blogs/blog1/blog1.md";
 
 const blogsFolderPath = "../../assets/blogJsons"
 
+type story = {
+  image: string,
+  id: string,
+  title: string,
+  description: string,
+  date: string,
+  blogPath: string
+}
+
 export default function Blogs() {
   const [successModal, setSuccessModal] = useState(false);
   const [errorModal, setErrorModal] = useState(false);
+  const [currentViewStory, setCurentViewStory] = useState<string | "">("");
   const [message, setMessage] = useState("");
   const [sending, setSending] = useState(false);
   let stories = [
@@ -27,7 +38,15 @@ export default function Blogs() {
       title: "My Story of Attending 14 Hackathons",
       description: "description placeholder",
       date: "July 23rd, 2022",
-      blogPath: "src/assets/blogs/blog1/blog1.md"
+      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/blog1.md"
+    },
+    {
+      image: Preview02,
+      id: "2",
+      title: "Lessons Learned from 7 Hackathon Win",
+      description: "description placeholder",
+      date: "August 1st, 2022",
+      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog2/blog2.md"
     },
   ];
   const params = {
@@ -37,11 +56,11 @@ export default function Blogs() {
     loop: true,
     breakpoints: {
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 40,
       },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 40,
       },
       768: {
@@ -64,7 +83,8 @@ export default function Blogs() {
     setErrorModal(false);
   };
 
-  let showSuccessModal = () => {
+  let showSuccessModal = (story: story) => {
+    setCurentViewStory(story.blogPath);
     setSuccessModal(true);
     setSending(false);
     // resetForm();
@@ -73,7 +93,7 @@ export default function Blogs() {
   return (
     <div className="blogs" id="blogs">
       {successModal &&
-        <BlogModal path="" closeModal={closeModal} onKeyDown={closeModal} />
+        <BlogModal path={currentViewStory} closeModal={closeModal} onKeyDown={closeModal} />
       }
       <div className="wrapper">
         <Title title="BLOGS." />
@@ -81,13 +101,13 @@ export default function Blogs() {
           Subtitle
         </p> */}
         <div className="padding30">
-          {/* <Swiper {...params}> */}
+          <Swiper {...params}>
             {stories && stories.map((story) => (
               <div>
-                <BlogBox article={story} onClick={showSuccessModal}/>
+                <BlogBox article={story} onClick={() => showSuccessModal(story)}/>
               </div>
             ))}
-          {/* </Swiper> */}
+          </Swiper>
         </div>
       </div>
     </div>
