@@ -2,14 +2,14 @@
 ---
 *Published: July 23rd, 2022*
 
+![My First Hackathon](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/njit.jpg?raw=true)
+
 I didn't know what a hackathon was until seeing someone winning their first place award on LinkedIn. I didn't know how to code before college and hadn't built any projects at that time. I get motivated to attend a hackathon and win something when I see people sharing their winning experiences on LinkedIn. 
 
 So I took the initiative, packed my 2017 Macbook and some clothes, and took the train to my first hackathon in New Jersey. I was a little bit scared cause it was my first time participating in a hackathon. Though it seems like I stepped out of my comfort zone, I chose to go to a hackathon for women as my comfort treat. 
 
 ## My First Hackathon
 In my first hackathon, I got into a room of strangers and talked to each other, trying to form a group. I later formed a group of 4 people, and we came up with the idea of building a machine learning application detecting ripe avocados with a motivation to reduce food waste. 
-
-![My First Hackathon](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/njit.jpg?raw=true)
 
 ## The First Hackathon Win
 YESSSS, I won the first hackathon in my second time attending the hackathon. I paired up with my friends this time and took the train to New Jersey to attend HackRU 2019, hosted by Rutgers University. We brainstormed a lot of cool, crazy, and fun ideas. It was the brainstorming step that led to the first hackathon award.
