@@ -43,7 +43,7 @@ export default function Blogs() {
     {
       image: Preview02,
       id: "2",
-      title: "Lessons Learned from 7 Hackathon Win",
+      title: "5 Lessons Learned from Attending 14 Hackathonsnpm",
       description: "description placeholder",
       date: "August 1st, 2022",
       blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog2/blog2.md"
