@@ -9,7 +9,7 @@ So I took the initiative, packed my 2017 Macbook and some clothes, and took the 
 ## My First Hackathon
 In my first hackathon, I got into a room of strangers and talked to each other, trying to form a group. I later formed a group of 4 people, and we came up with the idea of building a machine learning application detecting ripe avocados with a motivation to reduce food waste. 
 
-![My First Hackathon](https://github.com/AriNggituyen/aringuyen.github.io/blob/master/src/assets/blogs/blog1/njit.jpg?raw=true)
+![My First Hackathon](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/njit.jpg?raw=true)
 
 ## The First Hackathon Win
 YESSSS, I won the first hackathon in my second time attending the hackathon. I paired up with my friends this time and took the train to New Jersey to attend HackRU 2019, hosted by Rutgers University. We brainstormed a lot of cool, crazy, and fun ideas. It was the brainstorming step that led to the first hackathon award.
