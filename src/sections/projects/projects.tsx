@@ -12,8 +12,10 @@ import Preview1 from "../../assets/projects/project1/preview.jpg";
 import Preview2 from "../../assets/projects/project2/preview.jpg";
 import Preview3 from "../../assets/projects/project3/preview.jpg";
 import Preview4 from "../../assets/projects/project4/preview.jpg";
-import Preview5 from "../../assets/projects/project5/preview.png";
+import Preview5 from "../../assets/projects/project5/preview.jpg";
 import Preview6 from "../../assets/projects/project6/preview.png";
+import Preview7 from "../../assets/projects/project7/preview.jpg";
+import Preview8 from "../../assets/projects/project8/preview.jpg";
 
 export default function Projects() {
   let projects = [
@@ -41,18 +43,30 @@ export default function Projects() {
       title: "SmartFridge App",
       tag: ["webMobile"],
     },
-    // {
-    //   id: "5",
-    //   preview: Preview5,
-    //   title: "",
-    //   tag: ["robotics"],
-    // },
-    // {
-    //   id: "6",
-    //   preview: Preview6,
-    //   title: "Todo List Speech Recognition Web App",
-    //   tag: ["webMobile"],
-    // },
+    {
+      id: "5",
+      preview: Preview5,
+      title: "DeepSign Game",
+      tag: ["ai/ml"],
+    },
+    {
+      id: "6",
+      preview: Preview6,
+      title: "Todo List using Speech Recognition Web App",
+      tag: ["webMobile"],
+    },
+    {
+      id: "",
+      preview: Preview7,
+      title: "AURA, Virtual Assistant for Visually Impaired People",
+      tag: ["ai/ml", "robotics"],
+    },
+    {
+      id: "",
+      preview: Preview8,
+      title: "CodeGrindr - Hackathon Team Forming App",
+      tag: ["webMobile"],
+    },
   ];
 
   const [filterResult, setFilterResult] = useState(projects);
