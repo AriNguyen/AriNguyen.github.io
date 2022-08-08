@@ -11,6 +11,7 @@ import BlogModal from "../../components/blogBox/blogModal";
 
 import Preview01 from "../../assets/blogs/blog1/hoyahacks.jpg";
 import Preview02 from "../../assets/blogs/blog2/hackru.jpg";
+import Preview03 from "../../assets/blogs/blog3/ai3.jpg";
 // declare module '*.md'
 // import md from "../../assets/blogs/blog1/blog1.md";
 
@@ -43,10 +44,18 @@ export default function Blogs() {
     {
       image: Preview02,
       id: "2",
-      title: "5 Lessons Learned from Attending 14 Hackathonsnpm",
+      title: "5 Lessons Learned from Attending 14 Hackathons",
       description: "description placeholder",
       date: "August 1st, 2022",
       blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog2/blog2.md"
+    },
+    {
+      image: Preview03,
+      id: "3",
+      title: "My Journey in Artificial Intelligence (So Far)",
+      description: "description placeholder",
+      date: "August 7th, 2022",
+      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog3/blog3.md"
     },
   ];
   const params = {
@@ -56,11 +65,11 @@ export default function Blogs() {
     loop: true,
     breakpoints: {
       1200: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 40,
       },
       1024: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 40,
       },
       768: {
