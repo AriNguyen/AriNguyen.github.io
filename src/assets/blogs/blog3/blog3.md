@@ -17,6 +17,8 @@ It can be daunting to navigate between loads of different resources. So I will d
 ## Getting My Feet Wet with Summer Research Program 
 ![](https://github.com/AriNguyen/aringuyen.github.io/blob/f8f15f5865fb8fee5083835df537774536a66dc7/src/assets/blogs/blog3/star.jpg?raw=true)
 
+*My Friends and I proudly received the Summer Research Program Certificates*
+
 My journey into AI all started with getting accepted to the [STAR program](https://drexel.edu/pennoni/urep/undergraduate-research/STAR-scholars/) in the freshman summer. I had the opportunity to work on a project extending from my advisor's Ph.D. thesis.  
 
 The inspiration for this research stems from what computer scientists have been doing for a long time: developing artificial intelligence to mimic human intelligence. Artificial intelligence aims to construct a machine that can perform high-level learning tasks such as problem-solving, decision making, perception, and linguistics. According to the hierarchy of learning by Gagne (1962), high-level learning skills are built upon lower-level skills such as signal learning, stimulus-response, and chaining [1](#references). In the paper published in 1962, Stuart argued that it is crucial to produce a system capable of performing low-level learning in natural intelligence to develop a machine capable of high-level intelligence [2](#references). He proposed the "cybernetic automation" model to mimic some low-level learning abilities found in nature.
