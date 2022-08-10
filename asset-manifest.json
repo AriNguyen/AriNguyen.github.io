@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.972047ab.chunk.css",
-    "main.js": "/static/js/main.385ead21.chunk.js",
-    "main.js.map": "/static/js/main.385ead21.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9d9d2d5b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9d9d2d5b.js.map",
+    "main.css": "/static/css/main.4698a569.chunk.css",
+    "main.js": "/static/js/main.7d147e75.chunk.js",
+    "main.js.map": "/static/js/main.7d147e75.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6fefb9ec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6fefb9ec.js.map",
     "static/css/2.8deb18ba.chunk.css": "/static/css/2.8deb18ba.chunk.css",
-    "static/js/2.29b8da5f.chunk.js": "/static/js/2.29b8da5f.chunk.js",
-    "static/js/2.29b8da5f.chunk.js.map": "/static/js/2.29b8da5f.chunk.js.map",
-    "static/js/3.00d6bc65.chunk.js": "/static/js/3.00d6bc65.chunk.js",
-    "static/js/3.00d6bc65.chunk.js.map": "/static/js/3.00d6bc65.chunk.js.map",
+    "static/js/2.5eeb796f.chunk.js": "/static/js/2.5eeb796f.chunk.js",
+    "static/js/2.5eeb796f.chunk.js.map": "/static/js/2.5eeb796f.chunk.js.map",
+    "static/js/3.d84c19bd.chunk.js": "/static/js/3.d84c19bd.chunk.js",
+    "static/js/3.d84c19bd.chunk.js.map": "/static/js/3.d84c19bd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.8deb18ba.chunk.css.map": "/static/css/2.8deb18ba.chunk.css.map",
-    "static/css/main.972047ab.chunk.css.map": "/static/css/main.972047ab.chunk.css.map",
-    "static/js/2.29b8da5f.chunk.js.LICENSE.txt": "/static/js/2.29b8da5f.chunk.js.LICENSE.txt",
+    "static/css/main.4698a569.chunk.css.map": "/static/css/main.4698a569.chunk.css.map",
+    "static/js/2.5eeb796f.chunk.js.LICENSE.txt": "/static/js/2.5eeb796f.chunk.js.LICENSE.txt",
+    "static/media/ai5.966cc1a1.jpg": "/static/media/ai5.966cc1a1.jpg",
     "static/media/arrow.1f246d18.svg": "/static/media/arrow.1f246d18.svg",
     "static/media/arrow.cd19556a.svg": "/static/media/arrow.cd19556a.svg",
-    "static/media/ava1.4ea912c6.jpg": "/static/media/ava1.4ea912c6.jpg",
     "static/media/ava_white.2753a5d5.png": "/static/media/ava_white.2753a5d5.png",
     "static/media/hackru.873c116c.jpg": "/static/media/hackru.873c116c.jpg",
     "static/media/hoyahacks.a4a26371.jpg": "/static/media/hoyahacks.a4a26371.jpg",
@@ -30,10 +30,10 @@
     "static/media/preview.ff32fcb3.jpg": "/static/media/preview.ff32fcb3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9d9d2d5b.js",
+    "static/js/runtime-main.6fefb9ec.js",
     "static/css/2.8deb18ba.chunk.css",
-    "static/js/2.29b8da5f.chunk.js",
-    "static/css/main.972047ab.chunk.css",
-    "static/js/main.385ead21.chunk.js"
+    "static/js/2.5eeb796f.chunk.js",
+    "static/css/main.4698a569.chunk.css",
+    "static/js/main.7d147e75.chunk.js"
   ]
 }
