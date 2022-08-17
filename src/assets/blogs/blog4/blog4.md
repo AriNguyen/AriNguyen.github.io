@@ -6,20 +6,21 @@
 
 *Dragon team attending MAV 2019*
 
-In my first year, I registered for a 1-credit course for the undergraduate research lab. I later had the opportunity to attend the [Micro Air Vehicle Student Challenge (MAV) 2020](https://vtol.org/education/micro-air-vehicle-student-challenge/micro-air-vehicle-student-challenge-2019) hosted by the Vertical Flight Society. Looking back, I believe that participating in this course was the best choice I made in my first year at Drexel. What's more exciting is that I received the honorable mention award for the best remotely-controlled target search aircraft in the 2019 MAV Student Challenge 🚀 . I gained a lot of valuable knowledge and skills and got to know a lot of friends during 6 months. In this blog, I want to share my experience attending the competition.
+In my first year, I registered for a 1-credit course for the undergraduate research lab. I later had the opportunity to attend the [Micro Air Vehicle Student Challenge (MAV) 2020](https://vtol.org/education/micro-air-vehicle-student-challenge/micro-air-vehicle-student-challenge-2019) hosted by the Vertical Flight Society. Looking back, I believe that participating in this course was the best choice I made in my first year at Drexel. What's more exciting was that our research group received the Honorable Mention Award for the best remotely-controlled target search aircraft in this competition 🚀 . I gained many valuable knowledge and skills and made new friends during these 6 months. In this blog, I want to share my experience attending the competition.
 
 ## Building Drones in 6 Months: Testing and Failing
 
-Our team built multiple prototypes of drones within 6 months. We designed, fixed, and assembled the drone again every time we failed. In the first few months, I learned to solder electric wires, use drone configuration software, and build drones from scratch. The primary struggle is that our team comprises first-year students with no experience building drones. Luckily, we were mentored by an amazing professor and senior students who were also building drones for their senior projects. 
+Our team built multiple prototypes of drones within 6 months. We designed, fixed, and assembled the drone again every time we failed. There are three main subteams: mechanical, control, and sensing. The mechanical was responsible for designing and 3D-printed the drone frames. The control team soldered electronic parts, integrated them into the frames, and configured the software to make the drones fly. The sensing team worked on incorporating the camera systems onto the drone. In the first few months, I worked with the control team to learn to solder electric wires, use drone configuration software, and build everything from scratch. Throughout the process, we burned a few batteries and broke a few pieces of hardware. 
+
+In the last few months, the team recruited new members, and I led the control team to ensure that the drones could fly and be remotely controlled. The biggest trouble was that the drones were not stable. No matter how hard we tried, the drones kept crashing. The primary struggle was that our team comprised first-year students without experience building drones. Luckily, we were mentored by an amazing professor and senior students who were also building drones for their senior projects. The drones were able to fly around and carry the package. 
 
 ![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/droneFrame.jpg)
 *Drone frame and electrical parts*
 
-We 3D-printed the drone frames and integrated the electronics parts into them. We burned a few batteries and broke a few pieces of hardware. In the last few months, I have led the control team to ensure the drones can fly. The biggest trouble is that the drones are not stable. No matter how hard we try, the drones keep crashing and are still uncontrollable. 
 
 ## Rushing to Make it To MAV 2019
 
-Because most of the teammates were freshmen, we spent months learning the basics. So when we knew that we got selected to be the finalists and attend the final round, there were a few months left while many tasks were yet to be done. The team rushed to make the design presentation, record a flight demo, and compete in the package delivery mission. The most challenging part was controlling the drone to avoid several obstacles between the home base and the drop-off/pickup area.
+Because most of the teammates were freshmen, we spent months learning the basics. So when we knew that we got selected to be the finalists, there were a few months left while many tasks were yet to be done. The team rushed to make the design presentation, record a flight demo, and compete in the package delivery mission. The most challenging part was controlling the drone to avoid several obstacles between the home base and the drop-off/pickup area.
 
 ![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/map.png)
 
@@ -40,3 +41,4 @@ We finally presented our design in front of the judges from VFS. Unfortunately, 
 ![](https://github.com/AriNguyen/aringuyen.github.io/raw/master/src/assets/blogs/blog4/mav-whole.jpg)
 
 *Photo of all teams attending MAV 2019*
+
