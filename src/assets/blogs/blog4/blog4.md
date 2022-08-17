@@ -1,22 +1,3 @@
-# Attending Micro Air Vehicle (MAV) Student Challenge 2019
----
-*Published: Aug 14th, 2022*
-
-![Dragon teams attending MAV 2019](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/00c2dd7fa8e4b79ee1e94cdef111c8cd3a675549/src/assets/blogs/blog4/teamDragons.png)
-
-*Dragon team attending MAV 2019*
-
-In my first year, I registered for a 1-credit course for the undergraduate research lab. I later had the opportunity to attend the [Micro Air Vehicle Student Challenge (MAV) 2020](https://vtol.org/education/micro-air-vehicle-student-challenge/micro-air-vehicle-student-challenge-2019) hosted by the Vertical Flight Society. Looking back, I believe that participating in this course was the best choice I made in my first year at Drexel. What's more exciting is that I received the honorable mention award for the best remotely-controlled target search aircraft in the 2019 MAV Student Challenge 🚀 . I gained a lot of valuable knowledge and skills and got to know a lot of friends during 6 months. In this blog, I want to share my experience attending the competition.
-
-## Building Drones in 6 Months: Testing and Failing
-
-Our team built multiple prototypes of drones within 6 months. We designed, fixed, and assembled the drone again every time we failed. In the first few months, I learned to solder electric wires, learned to use drone configuration software, and built drones from scratch. The primary struggle is that our team comprised mostly first-year students who had no experience building drones. Luckily, we were mentored by an amazing professor and senior students who were also building drones for their senior projects. 
-
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/droneFrame.jpg)
-
-*Drone frame and electrical parts*
-
-We 3D-printed the drone frames and integrated the electronics parts into them. We burned a few batteries and broke a few pieces of hardware. In the last few months, I have led the control team to ensure the drones can fly. The biggest trouble is that the drones are not stable. No matter how hard we try, the drones keep crashing and are still uncontrollable. 
 # Attending Micro Air Vehicle (MAV) Student Challenge 
 ---
 *Published: Aug 14th, 2022*
