@@ -1,4 +1,4 @@
-# Things I Learned From Being President of A Student Organization
+# Things I Learned From Being the President of A Student Organization
 ---
 *Published: Aug 14th, 2022*
 
@@ -22,10 +22,6 @@ I learn that the strategy is to learn from other success stories and constantly 
 
 ## Coping with Deadlines: Understand your Team and Prioritize Mental Health
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/officers.jpg)
-
-*Drexel WiCS Leadership Team*
-
 The most challenging part of managing an organization is constantly keeping track of deadlines. It is challenging because our team is a student organization, and we prioritize classes and coops before clubs. I can vividly remember that former president told me that that president would act like the calendar to ensure everything was on track. I'm trying to provide all the necessary help when I'm available. Also, I remind people ahead and give flexible deadlines. 
 
 By learning to keep track of student organizations, I have become better at my time management skill. 
@@ -48,3 +44,6 @@ If you're a student looking to grow and learn new things, don't hesitate to join
 
 *Drexel WiCS and IEEE collaborated to host Arduino Workshop on Engineers Week*
 
+![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/officers.jpg)
+
+*Drexel WiCS Leadership Team*
