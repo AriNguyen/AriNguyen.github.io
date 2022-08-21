@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b222b0ca.chunk.css",
-    "main.js": "/static/js/main.b7e919d2.chunk.js",
-    "main.js.map": "/static/js/main.b7e919d2.chunk.js.map",
+    "main.js": "/static/js/main.44da49e7.chunk.js",
+    "main.js.map": "/static/js/main.44da49e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d288d80f.js",
     "runtime-main.js.map": "/static/js/runtime-main.d288d80f.js.map",
     "static/css/2.8deb18ba.chunk.css": "/static/css/2.8deb18ba.chunk.css",
@@ -28,6 +28,7 @@
     "static/media/preview.b0eef15d.png": "/static/media/preview.b0eef15d.png",
     "static/media/preview.d73a6ee6.jpg": "/static/media/preview.d73a6ee6.jpg",
     "static/media/preview.ff32fcb3.jpg": "/static/media/preview.ff32fcb3.jpg",
+    "static/media/springGBM.85a61758.jpg": "/static/media/springGBM.85a61758.jpg",
     "static/media/teamDragons.4d7441fa.png": "/static/media/teamDragons.4d7441fa.png"
   },
   "entrypoints": [
@@ -35,6 +36,6 @@
     "static/css/2.8deb18ba.chunk.css",
     "static/js/2.7e01daaa.chunk.js",
     "static/css/main.b222b0ca.chunk.css",
-    "static/js/main.b7e919d2.chunk.js"
+    "static/js/main.44da49e7.chunk.js"
   ]
 }
