@@ -3,17 +3,18 @@ import Swiper from "react-id-swiper";
 
 import './blogs.scss'
 import "swiper/css/swiper.css";
+import { GrNext } from 'react-icons/gr';
+import { FcNext, FcPrevious } from 'react-icons/fc';
 
 import Title from "../../components/title/title"
 import BlogBox from "../../components/blogBox/blogBox"
-// import Modal from "../../components/contactModal/modal";
 import BlogModal from "../../components/blogBox/blogModal";
 
 import Preview01 from "../../assets/blogs/blog1/hoyahacks.jpg";
 import Preview02 from "../../assets/blogs/blog2/hackru.jpg";
-import Preview03 from "../../assets/blogs/blog3/ai3.jpg";
-// declare module '*.md'
-// import md from "../../assets/blogs/blog1/blog1.md";
+import Preview03 from "../../assets/blogs/blog3/ai5.jpg";
+import Preview04 from "../../assets/blogs/blog4/teamDragons.png";
+import Preview05 from "../../assets/blogs/blog5/springGBM.jpg"
 
 const blogsFolderPath = "../../assets/blogJsons"
 
@@ -54,15 +55,42 @@ export default function Blogs() {
       id: "3",
       title: "My Journey in Artificial Intelligence (So Far)",
       description: "description placeholder",
-      date: "August 7th, 2022",
+      date: "August 9th, 2022",
       blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog3/blog3.md"
+    },
+    {
+      image: Preview04,
+      id: "4",
+      title: "Attending Micro Air Vehicle (MAV) Student Challenge ",
+      description: "description placeholder",
+      date: "August 14th, 2022",
+      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/blog4.md"
+    },
+    {
+      image: Preview05,
+      id: "4",
+      title: "Things I Learned From Being the President of A Student Organization",
+      description: "description placeholder",
+      date: "August 21st, 2022",
+      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/blog5.md"
     },
   ];
   const params = {
     grabCursor: true,
     slidesPerView: 1,
     spaceBetween: 10,
-    loop: true,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    renderPrevButton: () => <FcPrevious className="swiper-button-prev swiper-button-big"></FcPrevious>,
+    renderNextButton: () => <FcNext className="swiper-button-next swiper-button-big"></FcNext>,
     breakpoints: {
       1200: {
         slidesPerView: 3,
