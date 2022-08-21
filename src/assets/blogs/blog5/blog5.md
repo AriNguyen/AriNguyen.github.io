@@ -34,16 +34,13 @@ The most important lesson I learned is how to address conflict, people who are l
 
 ## Final thoughts
 
+![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/officers.jpg)
+
+*Drexel WiCS Leadership Team*
+
 The last thing I learned from my experience is to enjoy your time hosting events, making friends, and getting to know other organizations. It was interactive and ABC to go beyond the Zoom meeting to finally meet my friends again. 
 
 I hope you enjoy learning about my experience as the president of a student organization. I want to admit that I somewhat regret not having time to accomplish some initiatives initially. 
 
 If you're a student looking to grow and learn new things, don't hesitate to join the leadership board of the organization you're interested in. 
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/arduino.jpg)
-
-*Drexel WiCS and IEEE collaborated to host Arduino Workshop on Engineers Week*
-
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/officers.jpg)
-
-*Drexel WiCS Leadership Team*
