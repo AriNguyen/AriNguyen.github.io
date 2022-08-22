@@ -30,7 +30,7 @@ By learning to lead my student organizations, I have improved my time management
 
 ## Healthy Conflicts are for Healthy Organizations
 
-The second lesson I learned is that conflicts can be beneficial for an organization to run smoothly. Disagreement, unmet expectations, and misunderstanding are inevitable to all groups, teams, and organizations. The conversation to address these tensions is difficult because one member might hold on to some type of bitterness or put up with the same problem over and over again. That used to be me. I tended to hold back out of fear of hurting a relationship, hurting other feelings, and just not wanting to say the wrong thing. I've learned how to address when teammates are lacking behind or unresponsive to emails or text. I believe that there's not a single perfect team that can work well together.
+The second lesson I learned is that conflicts can be beneficial for an organization to run smoothly. Disagreement, unmet expectations, and misunderstanding are inevitable to all groups, teams, and organizations. The conversation to address these tensions is difficult because one member might hold on to some type of bitterness or put up with the same problem over and over again. That used to be me. I tended to hold back out of fear of hurting a relationship, hurting other feelings, and just not wanting to say the wrong thing. I've learned how to address when teammates are lacking behind or unresponsive to emails or texts. I believe that there's not a single perfect team that can work well together.
 
 ## Final thoughts
 
@@ -39,3 +39,4 @@ The second lesson I learned is that conflicts can be beneficial for an organizat
 *Drexel WiCS Leadership Team*
 
 The last thing I want to share is to enjoy your time hosting events, making friends, and getting to know other organizations. It was amazing to go beyond the Zoom meeting to finally meet my friends again this school year. I hope you enjoy learning about my experience leading a student organization. If you're a student looking to grow and learn new things, don't hesitate to join the leadership board of the organization you're interested in. It's super rewarding!
+
