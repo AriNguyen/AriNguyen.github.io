@@ -32,22 +32,27 @@ export default function Hero() {
         <Row>
           <Col md={12} lg={6}>
             <div className="hero-info">
+              
               <h1 className="weight800 font60">
                 Hi! I'm {<animated.text className="weight800 font60" style={styles}>Ari.</animated.text>}
               </h1>
               <h1 className="weight800 font40">
                 Computer Science Student
               </h1>
+              <div className="hero-image-mobile">
+                <img className="hero-image-mobile-img" src={Ava} alt="hero" />
+              </div>
               <p className="font15">
                 Rising Senior at Drexel University.<br />
-                Interested in the field of AI/ML and Robotics.
+                Interested in the intersection of artificial intelligence and robotics.<br />
+                Enhancing Social Impact through Technology.
               </p>
-              <Row className="hero-row">
-                <Col md={12} lg={4}>
+              <Row className="main-button">
+                {/* <Col className='message-button' md={12} lg={4}>
                   <Button target='' label="SEND MESSAGE"></Button>
-                </Col>
+                </Col> */}
                 <Col md={12} lg={4}>
-                  <Button target='' label="DOWNLOAD CV"></Button>
+                  <Button label="VIEW RESUME" target="https://drive.google.com/file/d/121u0fYeyyGOzaho2eYPjjhdH8q0WgCQy/view?usp=sharing"></Button>
                 </Col>
               </Row>
               <Row className="hero-row social-test">
@@ -65,8 +70,8 @@ export default function Hero() {
             </div>
           </Col>
           <Col md={12} lg={6}>
-            <div className="hero-image">
-              <img src={Ava} alt="hero" />
+            <div >
+              <img className="hero-image" src={Ava} alt="hero" />
             </div>
           </Col>
         </Row>

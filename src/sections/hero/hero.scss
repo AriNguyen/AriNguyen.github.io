@@ -2,9 +2,10 @@
 @import '../../style/colors.scss';
 
 .hero {
-  padding-top: 240px;
+  padding-top: 12%;
+  // padding-bottom: 60px;
   width: 100%;
-  padding-bottom: 60px;
+  min-height: 100vh;
 
   .hero-info {
     padding-top: 60px;
@@ -20,6 +21,13 @@
     height: auto;
     float: right;
   }
+  .hero-image-mobile {
+    display: none;
+  }
+}
+
+.main-button {
+  
 }
 
 .social-test {
@@ -87,6 +95,17 @@
         justify-content: center;
       }
     }
-
+    .hero-image {
+      display:none;
+    }
+    .hero-image-mobile {
+      display:block;
+      justify-content: center;
+      max-height: 200px;
+    }
+    .hero-image-mobile-img {
+      max-height: 200px;
+      margin:auto;
+    }
   }
 }
