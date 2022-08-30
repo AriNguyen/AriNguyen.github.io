@@ -1,0 +1,25 @@
+.experience-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+
+  .time {
+    min-width: 170px;
+    padding-right: 20px;
+  }
+
+  .position {
+    padding-left: 20px;
+
+    .tile {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .company {
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+    }
+  }
+}
