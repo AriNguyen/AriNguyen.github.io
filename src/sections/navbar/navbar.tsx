@@ -29,23 +29,23 @@ export default function Navbar() {
         <div className="desktop__menu">
           <ul className="flex-s-between">
             <li>
-              <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+              <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-70} duration={300}>
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link activeClass="active-link" to="experience" spy={true} smooth={true} offset={-70} duration={500}>
+              <Link activeClass="active-link" to="experience" spy={true} smooth={true} offset={-70} duration={300}>
                 EXPERIENCE
               </Link>
             </li>
             <li>
-              <Link activeClass="active-link" to="projects" spy={true} smooth={true} offset={-70} duration={500}>
-                PROJECTS
+              <Link activeClass="active-link" to="blogs" spy={true} smooth={true} offset={-70} duration={300}>
+                BLOGS
               </Link>
             </li>
             <li>
-              <Link activeClass="active-link" to="blogs" spy={true} smooth={true} offset={-70} duration={500}>
-                BLOGS
+              <Link activeClass="active-link" to="projects" spy={true} smooth={true} offset={-70} duration={300}>
+                PROJECTS
               </Link>
             </li>
             {/* <li>
