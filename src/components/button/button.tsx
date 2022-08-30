@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import Button from '@mui/material/Button';
 
 import "./button.scss";
 
@@ -11,16 +11,12 @@ type buttonProps = {
 export default function button({target, label}: buttonProps) {
   return (
     <div className="button">
-      <Link
+      <Button
         className="button-link"
-        to={target}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
+        href={target}
       >
         {label}
-      </Link>
+      </Button>
     </div>
   )
 }
