@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b222b0ca.chunk.css",
-    "main.js": "/static/js/main.44da49e7.chunk.js",
-    "main.js.map": "/static/js/main.44da49e7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d288d80f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d288d80f.js.map",
+    "main.css": "/static/css/main.284b0ad8.chunk.css",
+    "main.js": "/static/js/main.cffc6bb5.chunk.js",
+    "main.js.map": "/static/js/main.cffc6bb5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f2d4f9aa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f2d4f9aa.js.map",
     "static/css/2.8deb18ba.chunk.css": "/static/css/2.8deb18ba.chunk.css",
-    "static/js/2.7e01daaa.chunk.js": "/static/js/2.7e01daaa.chunk.js",
-    "static/js/2.7e01daaa.chunk.js.map": "/static/js/2.7e01daaa.chunk.js.map",
-    "static/js/3.637e3137.chunk.js": "/static/js/3.637e3137.chunk.js",
-    "static/js/3.637e3137.chunk.js.map": "/static/js/3.637e3137.chunk.js.map",
+    "static/js/2.a2668185.chunk.js": "/static/js/2.a2668185.chunk.js",
+    "static/js/2.a2668185.chunk.js.map": "/static/js/2.a2668185.chunk.js.map",
+    "static/js/3.31059208.chunk.js": "/static/js/3.31059208.chunk.js",
+    "static/js/3.31059208.chunk.js.map": "/static/js/3.31059208.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.8deb18ba.chunk.css.map": "/static/css/2.8deb18ba.chunk.css.map",
-    "static/css/main.b222b0ca.chunk.css.map": "/static/css/main.b222b0ca.chunk.css.map",
-    "static/js/2.7e01daaa.chunk.js.LICENSE.txt": "/static/js/2.7e01daaa.chunk.js.LICENSE.txt",
+    "static/css/main.284b0ad8.chunk.css.map": "/static/css/main.284b0ad8.chunk.css.map",
+    "static/js/2.a2668185.chunk.js.LICENSE.txt": "/static/js/2.a2668185.chunk.js.LICENSE.txt",
     "static/media/ai5.966cc1a1.jpg": "/static/media/ai5.966cc1a1.jpg",
     "static/media/arrow.1f246d18.svg": "/static/media/arrow.1f246d18.svg",
     "static/media/arrow.cd19556a.svg": "/static/media/arrow.cd19556a.svg",
@@ -32,10 +32,10 @@
     "static/media/teamDragons.4d7441fa.png": "/static/media/teamDragons.4d7441fa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d288d80f.js",
+    "static/js/runtime-main.f2d4f9aa.js",
     "static/css/2.8deb18ba.chunk.css",
-    "static/js/2.7e01daaa.chunk.js",
-    "static/css/main.b222b0ca.chunk.css",
-    "static/js/main.44da49e7.chunk.js"
+    "static/js/2.a2668185.chunk.js",
+    "static/css/main.284b0ad8.chunk.css",
+    "static/js/main.cffc6bb5.chunk.js"
   ]
 }
