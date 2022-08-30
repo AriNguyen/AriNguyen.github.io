@@ -1,12 +1,8 @@
 import React from 'react';
 import { Row, Col } from "react-flexbox-grid";
 
-import ImageBox from "../../components/imageBox/image-box";
 import InfoBox from "../../components/infoBox/info-box";
 import Title from "../../components/title/title";
-
-import Person01 from "../../assets/about/ava1.jpg"
-import Person02 from "../../assets/about/ava2.png"
 
 import './about.scss';
 
@@ -21,7 +17,7 @@ export default function About() {
         </p>
         <Row>
           <Col md={12} lg={4}>
-            <ImageBox image={Person01} title="Ari Nguyen" subTitle="Web designer" />
+            {/* <ImageBox image={Person01} title="Ari Nguyen" subTitle="Web designer" /> */}
             {/* <InfoBox title='Little About Me' info='abcd' boxFooter='Read More' /> */}
           </Col>
           <Col md={12} lg={4}>

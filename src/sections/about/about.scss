@@ -1,8 +1,12 @@
 @import '../../style/App.scss';
 
 #about {
-  background-color: $white-color;
-  padding: 60x 0;
+  // background-color: $white-color;
+  background-color: $main-color;
+  min-height: 100vh;
+  // padding: 60px 0;
+  padding: 20px 0 0 0;
+  
 }
 
 .about {
@@ -11,7 +15,7 @@
 }
 
 @media screen and (max-width: 990px) {
-  #about {
+  .about {
     text-align: center;
   }
 }
