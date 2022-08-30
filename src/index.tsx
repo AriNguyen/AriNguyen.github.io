@@ -23,8 +23,8 @@ function HomePage() {
       <Hero />
       <About />
       <Experience />
-      <Projects />
       <Blogs />
+      <Projects />
       {/* <Contact /> */}
       <Footer />
     </div>
