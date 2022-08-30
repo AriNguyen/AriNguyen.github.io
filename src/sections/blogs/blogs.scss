@@ -2,11 +2,34 @@
 
 .blogs {
   background-color: $main-color;
-  padding: 60px 0;
+  padding: 20px 0 0 0;
+  min-height: 100vh;
+}
+
+.swiper-button-big {
+  height: "150px"!important; 
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  height: "150px"!important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
 }
 
 @media screen and (max-width: 990px) {
   #blogs {
-    // text-align: center;
+    text-align: center;
   }
 }
