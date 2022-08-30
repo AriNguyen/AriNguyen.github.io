@@ -48,11 +48,11 @@ export default function Navbar() {
                 BLOGS
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link activeClass="active-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
                 CONTACT
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
