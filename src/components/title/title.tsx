@@ -10,7 +10,7 @@ type titleProps = {
 export default function title({title}: titleProps) {
   return (
     <Row>
-      <Col>
+      <Col className="big__title">
         <h2 className="weight800 font60 padding40">{title}</h2>
       </Col>
     </Row>
