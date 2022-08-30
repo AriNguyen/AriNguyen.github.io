@@ -25,7 +25,7 @@ function HomePage() {
       <Experience />
       <Projects />
       <Blogs />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   )
