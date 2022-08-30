@@ -10,7 +10,9 @@ type projectBoxProps = {
 export default function projectBox({ preview, title, tag }: projectBoxProps) {
   return (
     <div className="project__box">
-      <img src={preview} alt="project" />
+      <div className="flex-center project_img">
+        <img src={preview} alt="project" />
+      </div>
       <div className="project__hover-info flex-center">
         <div className="text-center">
           <p className="font30 weight800">{title}</p>
