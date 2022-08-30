@@ -25,8 +25,8 @@ export default function Experience() {
                 </Col>
                 <Col md={10} lg={10} style={{width:"auto"}}>
                   <p>
-                  Interested in the ideas that fall at the intersection of artificial intelligence and robotics. <br/>
-                  Inspired to solve meaningful and challenging real-world problems using technology! Eager to work hard and learn continuously.
+                  {/* Interested in the ideas that fall at the intersection of artificial intelligence and robotics. <br/>
+                  Inspired to solve meaningful and challenging real-world problems using technology! Eager to work hard and learn continuously. */}
                   </p>
                 </Col>
               </Row>
