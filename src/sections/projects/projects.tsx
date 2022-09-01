@@ -98,7 +98,7 @@ export default function Projects() {
   }, [pickedFilter, pickedFilterDropdown]);
 
   return (
-    <div id="projects">
+    <div id="projects" className='section-wrapper'>
       <div className="wrapper">
         <Title title="PROJECTS SHOWCASE." />
         <Row>

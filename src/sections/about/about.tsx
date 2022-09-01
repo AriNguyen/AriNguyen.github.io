@@ -11,12 +11,12 @@ import './about.scss';
 
 export default function About() {
   return (
-    <div id="about" className='about'>
+    <div id="about" className='section-wrapper about'>
       <div className="wrapper">
         <Title title="ABOUT ME." />
         <p className="font15">
-          Interested in the ideas that fall at the intersection of artificial intelligence and robotics. <br/>
-          Inspired to solve meaningful and challenging real-world problems using technology! Eager to work hard and learn continuously.
+          I'm interested in the ideas that fall at the intersection of artificial intelligence and robotics. <br/>
+          And I'm inspired to solve meaningful and challenging real-world problems using technology! Eager to work hard and learn continuously.
         </p>
         <Row>
           <Col md={12} lg={4}>

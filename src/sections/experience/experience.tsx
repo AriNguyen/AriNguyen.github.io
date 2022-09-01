@@ -13,7 +13,7 @@ import Skill from '../../components/skill/skill'
 
 export default function Experience() {
   return (
-    <div className='experience'>
+    <div className='experience section-wrapper'>
       <div className='wrapper'>
         <Row>
           <Col md={12} lg={6}>

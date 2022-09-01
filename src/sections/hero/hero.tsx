@@ -27,7 +27,7 @@ export default function Hero() {
   })
 
   return (
-    <div className="hero" id="hero">
+    <div className="hero section-wrapper" id="hero">
       <div className="wrapper">
         <Row>
           <Col md={12} lg={6}>

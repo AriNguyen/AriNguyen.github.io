@@ -128,7 +128,7 @@ export default function Blogs() {
   };
 
   return (
-    <div className="blogs" id="blogs">
+    <div className="section-wrapper blogs" id="blogs">
       {successModal &&
         <BlogModal path={currentViewStory} closeModal={closeModal} onKeyDown={closeModal} />
       }

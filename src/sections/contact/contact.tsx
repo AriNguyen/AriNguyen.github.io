@@ -73,7 +73,7 @@ export default function Contact() {
   }
 
   return (
-    <div id="contact">
+    <div id="contact" className='section-wrapper'>
       {successModal &&
         <Modal status="success" closeModal={closeModal} onKeyDown={closeModal} />
       }
