@@ -14,10 +14,12 @@ export default function About() {
     <div id="about" className='section-wrapper about'>
       <div className="wrapper">
         <Title title="ABOUT ME." />
-        <p className="font15">
-          I'm interested in the ideas that fall at the intersection of artificial intelligence and robotics. <br/>
-          And I'm inspired to solve meaningful and challenging real-world problems using technology! Eager to work hard and learn continuously.
-        </p>
+        <div className='flex-center about_text'>
+          <p className="font15">
+            I'm interested in the ideas that fall at the intersection of artificial intelligence and robotics and inspired to solve meaningful and challenging real-world problems using technology!
+            I'm eager to work hard and learn continuously.
+          </p>
+        </div>
         <Row>
           <Col md={12} lg={4}>
             <ImageBox image={Photo1} title="Ari Nguyen" subTitle="Web designer" />
