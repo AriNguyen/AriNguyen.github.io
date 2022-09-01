@@ -1,9 +1,10 @@
 @import '../../style/App.scss';
   
 .project__box {
+  background-color: $black-color;
   position: relative;
   max-width: 370px;
-  max-height: 220px;
+  max-height: 350px;
   margin: 15px auto;
   cursor: pointer;
 
@@ -20,21 +21,30 @@
     }
   }
 
-  .project__hover-info {
-    background-color: rgba($main-color, 0.8);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 0.3s ease;
-    
-    p {
+  .blog__info {
+    padding: 35px;
+    color: $white-color;
+
+    h4 {
       text-transform: uppercase;
     }
   }
-  .project__hover-info:hover {
-    opacity: 1;
-  }
+
+  // .project__hover-info {
+  //   background-color: rgba($main-color, 0.8);
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: 0;
+  //   transition: 0.3s ease;
+    
+  //   p {
+  //     text-transform: uppercase;
+  //   }
+  // }
+  // .project__hover-info:hover {
+  //   opacity: 1;
+  // }
 }

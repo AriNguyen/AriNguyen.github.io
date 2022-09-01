@@ -25,8 +25,8 @@ type story = {
 }
 
 export default function Blogs() {
-  const [successModal, setSuccessModal] = useState(false);
-  const [currentViewStory, setCurentViewStory] = useState<string | "">("");
+  const [isBlogOnClick, setIsBlogOnClick] = useState(false);
+  const [currentViewBlog, setCurentViewBlog] = useState<string | "">("");
   let stories = [
     {
       image: Preview01,
@@ -110,19 +110,18 @@ export default function Blogs() {
   };
 
   let closeModal = () => {
-    setSuccessModal(false);
+    setIsBlogOnClick(false);
   };
 
   let showSuccessModal = (story: story) => {
-    setCurentViewStory(story.blogPath);
-    setSuccessModal(true);
-    // resetForm();
+    setCurentViewBlog(story.blogPath);
+    setIsBlogOnClick(true);
   };
 
   return (
     <div className="section-wrapper blogs" id="blogs">
-      {successModal &&
-        <BlogModal path={currentViewStory} closeModal={closeModal} onKeyDown={closeModal} />
+      {isBlogOnClick &&
+        <BlogModal path={currentViewBlog} closeModal={closeModal} onKeyDown={closeModal} />
       }
       <div className="wrapper">
         <Title title="BLOGS." />

@@ -6,6 +6,7 @@ import './projects.scss';
 
 import Title from "../../components/title/title";
 import ProjectBox from '../../components/projectBox/projectBox';
+import BlogModal from "../../components/blogBox/blogModal";
 
 import Arrow from "../../assets/projects/arrow.svg";
 import Preview1 from "../../assets/projects/project1/preview.jpg";
@@ -17,55 +18,73 @@ import Preview6 from "../../assets/projects/project6/preview.png";
 import Preview7 from "../../assets/projects/project7/preview.jpg";
 import Preview8 from "../../assets/projects/project8/preview.jpg";
 
+type project = {
+  id: string,
+  preview: string,
+  title: string,
+  tag: Array<string>,
+  path: string
+}
+
 export default function Projects() {
+  const [isProjectOnClick, setIsProjectOnClick] = useState(false);
+  const [currentViewProject, setCurentViewProject] = useState<string | "">("");
   let projects = [
     {
       id: "1",
       preview: Preview1,
       title: "Eye Tracking and Speech Generating App",
       tag: ["robotics", "ai/ml"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/speakYourMind.md"
     },
     {
       id: "2",
       preview: Preview2,
       title: "Object Avoidance and Detection Device",
       tag: ["robotics", "ai/ml"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/objectAvoidance.md"
     },
     {
       id: "3",
       preview: Preview3,
       title: "Smart Car For Disabled People",
       tag: ["robotics"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/wheelChair.md"
     },
     {
       id: "4",
       preview: Preview4,
       title: "SmartFridge App",
       tag: ["webMobile"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/delisa.md"
     },
     {
       id: "5",
       preview: Preview5,
       title: "DeepSign Game",
       tag: ["ai/ml"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/deepSign.md"
     },
     {
       id: "6",
       preview: Preview6,
       title: "Todo List using Speech Recognition Web App",
       tag: ["webMobile"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/todoList.md"
     },
     {
       id: "",
       preview: Preview7,
       title: "AURA, Virtual Assistant for Visually Impaired People",
       tag: ["ai/ml", "robotics"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/aura.md"
     },
     {
       id: "",
       preview: Preview8,
       title: "CodeGrindr - Hackathon Team Forming App",
       tag: ["webMobile"],
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/codeGrindr.md"
     },
   ];
 
@@ -97,8 +116,20 @@ export default function Projects() {
     setFilterResult(result);
   }, [pickedFilter, pickedFilterDropdown]);
 
+  let closeModal = () => {
+    setIsProjectOnClick(false);
+  };
+
+  let showSuccessModal = (project: project) => {
+    setCurentViewProject(project.path);
+    setIsProjectOnClick(true);
+  };
+
   return (
     <div id="projects" className='section-wrapper'>
+      {isProjectOnClick &&
+        <BlogModal path={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
+      }
       <div className="wrapper">
         <Title title="PROJECTS SHOWCASE." />
         <Row>
@@ -139,13 +170,13 @@ export default function Projects() {
                 <p className="font12" onClick={() => setPickedFilterDropdown("OLDEST")}>
                   OLDEST
                 </p>
-              </div> )}
+              </div>)}
             </div>
           </Col>
         </Row>
         <Masonry breakpointCols={projectsBreakpoints} className="my-masonry-grid" columnClassName="gallery">
           {filterResult.map((project) => (
-            <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} />
+            <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} onClick={() => showSuccessModal(project)}/>
           ))}
         </Masonry>
       </div>
