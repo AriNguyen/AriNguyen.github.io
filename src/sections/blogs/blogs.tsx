@@ -3,7 +3,6 @@ import Swiper from "react-id-swiper";
 
 import './blogs.scss'
 import "swiper/css/swiper.css";
-import { GrNext } from 'react-icons/gr';
 import { FcNext, FcPrevious } from 'react-icons/fc';
 
 import Title from "../../components/title/title"
@@ -16,8 +15,6 @@ import Preview03 from "../../assets/blogs/blog3/ai5.jpg";
 import Preview04 from "../../assets/blogs/blog4/teamDragons.png";
 import Preview05 from "../../assets/blogs/blog5/springGBM.jpg"
 
-const blogsFolderPath = "../../assets/blogJsons"
-
 type story = {
   image: string,
   id: string,
@@ -29,10 +26,7 @@ type story = {
 
 export default function Blogs() {
   const [successModal, setSuccessModal] = useState(false);
-  const [errorModal, setErrorModal] = useState(false);
   const [currentViewStory, setCurentViewStory] = useState<string | "">("");
-  const [message, setMessage] = useState("");
-  const [sending, setSending] = useState(false);
   let stories = [
     {
       image: Preview01,
@@ -117,13 +111,11 @@ export default function Blogs() {
 
   let closeModal = () => {
     setSuccessModal(false);
-    setErrorModal(false);
   };
 
   let showSuccessModal = (story: story) => {
     setCurentViewStory(story.blogPath);
     setSuccessModal(true);
-    setSending(false);
     // resetForm();
   };
 
