@@ -6,7 +6,7 @@ import './projects.scss';
 
 import Title from "../../components/title/title";
 import ProjectBox from '../../components/projectBox/projectBox';
-import BlogModal from "../../components/blogBox/blogModal";
+import ProjectModal from "../../components/projectBox/projectModal";
 
 import Arrow from "../../assets/projects/arrow.svg";
 import Preview1 from "../../assets/projects/project1/preview.jpg";
@@ -22,69 +22,112 @@ type project = {
   id: string,
   preview: string,
   title: string,
+  description: string,
   tag: Array<string>,
-  path: string
+  path: string,
+  imgs: Array<string>,
 }
 
 export default function Projects() {
   const [isProjectOnClick, setIsProjectOnClick] = useState(false);
-  const [currentViewProject, setCurentViewProject] = useState<string | "">("");
+  const [currentViewProject, setCurentViewProject] = useState<{
+    id: string, 
+    preview: string, 
+    title: string, 
+    description: string,
+    tag: Array<string>, 
+    path: string, 
+    imgs: Array<string>
+  }>({id: "", preview: "", title: "", description: "", tag: [""], path: "", imgs: [""]});
+  
   let projects = [
     {
       id: "1",
-      preview: Preview1,
-      title: "Eye Tracking and Speech Generating App",
+      preview: Preview1, 
+      title: "Speak Your Mind",
+      description: "Eye Tracking and Speech Generating App - Help People with Paralysis Communicate",
       tag: ["robotics", "ai/ml"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/speakYourMind.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/speakYourMind.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
       id: "2",
       preview: Preview2,
       title: "Object Avoidance and Detection Device",
+      description: "Allows visually impaired people navigate around easily and find a particular object with ease.",
       tag: ["robotics", "ai/ml"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/objectAvoidance.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/objectAvoidance.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
       id: "3",
       preview: Preview3,
-      title: "Smart Car For Disabled People",
+      title: "Smart Wheelchair For People with Disability",
+      description: "Help severely paralyzed patients navigate indoor and outdoor environments",
       tag: ["robotics"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/wheelChair.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/wheelChair.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
       id: "4",
       preview: Preview4,
       title: "SmartFridge App",
+      description: "Mobile App to Reduce Food Waste",
       tag: ["webMobile"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/delisa.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/delisa.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
       id: "5",
       preview: Preview5,
       title: "DeepSign Game",
+      description: "Interactive fun Unity Game for learning American Sign Language",
       tag: ["ai/ml"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/deepSign.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/deepSign.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
       id: "6",
       preview: Preview6,
       title: "Todo List using Speech Recognition Web App",
+      description: "",
       tag: ["webMobile"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/todoList.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/todoList.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
-      id: "",
+      id: "7",
       preview: Preview7,
-      title: "AURA, Virtual Assistant for Visually Impaired People",
+      title: "AURA",
+      description: "Virtual Assistant helps navigate around, find objects, understand the world",
       tag: ["ai/ml", "robotics"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/aura.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/aura.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
     {
-      id: "",
+      id: "8",
       preview: Preview8,
       title: "CodeGrindr - Hackathon Team Forming App",
+      description: "A solution for effective Hackathon team formation",
       tag: ["webMobile"],
-      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/codeGrindr.md"
+      path: "https://raw.githubusercontent.com/AriNguyen/project_readme/master/codeGrindr.md",
+      imgs: [
+        "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true",
+      ]
     },
   ];
 
@@ -121,14 +164,14 @@ export default function Projects() {
   };
 
   let showSuccessModal = (project: project) => {
-    setCurentViewProject(project.path);
+    setCurentViewProject(project);
     setIsProjectOnClick(true);
   };
 
   return (
     <div id="projects" className='section-wrapper'>
-      {isProjectOnClick &&
-        <BlogModal path={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
+      {isProjectOnClick && currentViewProject &&
+        <ProjectModal project={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
       }
       <div className="wrapper">
         <Title title="PROJECTS SHOWCASE." />
@@ -176,7 +219,7 @@ export default function Projects() {
         </Row>
         <Masonry breakpointCols={projectsBreakpoints} className="my-masonry-grid" columnClassName="gallery">
           {filterResult.map((project) => (
-            <ProjectBox preview={project.preview} key={project.id} title={project.title} tag={project.tag} onClick={() => showSuccessModal(project)}/>
+            <ProjectBox key={project.id} project={project} onClick={() => showSuccessModal(project)}/>
           ))}
         </Masonry>
       </div>

@@ -4,7 +4,8 @@
   background-color: $black-color;
   position: relative;
   max-width: 370px;
-  max-height: 350px;
+  max-height: 370px;
+  min-height: 370px;
   margin: 15px auto;
   cursor: pointer;
 
@@ -27,6 +28,11 @@
 
     h4 {
       text-transform: uppercase;
+    }
+    
+    p {
+      line-height: 1.5;
+      // padding-top: 10px;
     }
   }
 

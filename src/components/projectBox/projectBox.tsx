@@ -3,32 +3,29 @@ import React from "react";
 import './projectBox.scss';
 
 type projectBoxProps = {
-  preview: string;
-  title: string;
-  tag: string[];
+  project: {
+    id: string,
+    preview: string;
+    title: string;
+    description: string,
+    tag: Array<string>;
+    path: string,
+    imgs: Array<string>,
+  }
   onClick: React.MouseEventHandler<HTMLDivElement>
 }
-export default function projectBox({ preview, title, tag, onClick}: projectBoxProps) {
+export default function projectBox({ project, onClick }: projectBoxProps) {
   return (
     <div className="project__box" onClick={onClick}>
       <div className="flex-center project_img">
-        <img src={preview} alt="project" />
+        <img src={project.preview} alt="project" />
       </div>
       <div className="blog__info">
-      <h4 className="font15 weight800">{title}</h4>
-      <p className="font12 weight500">
-        {tag.join(", ")}
-      </p>
-      {/* <p className="font12 weight500 padding10">{article.description}</p> */}
-      {/* <p className="font12 weight500">{article.date}</> */}
-    </div>
+        <h4 className="font15 weight800">{project.title}</h4>
+        <p className="font13 weight500 padding10">
+          {project.description}
+        </p>
+      </div>
     </div>
   )
 }
-
-{/* <div className="project__hover-info flex-center">
-  <div className="text-center">
-    <p className="font30 weight800">{title}</p>
-    {tag.map(t => <p className="font12 weight500">{t}</p>)}
-  </div>
-</div> */}
