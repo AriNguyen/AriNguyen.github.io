@@ -169,7 +169,7 @@ export default function Projects() {
   };
 
   return (
-    <div id="projects" className='section-wrapper'>
+    <div id="projects" className='section-wrapper main-color-background'>
       {isProjectOnClick && currentViewProject &&
         <ProjectModal project={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
       }

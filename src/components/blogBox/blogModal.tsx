@@ -13,7 +13,6 @@ type blogModalProps = {
 
 export default function BlogModal({ path, closeModal, onKeyDown }: blogModalProps) {
   const [md, setMD] = useState("");
-  // const readmePath = 'https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/blog1.md';
   const apiAddress: string | undefined = path;
 
   if (!apiAddress) throw 'API address not defined'
@@ -31,14 +30,10 @@ export default function BlogModal({ path, closeModal, onKeyDown }: blogModalProp
       <div role="button" aria-label="Close" tabIndex={0} className="backdrop" onClick={closeModal} onKeyDown={onKeyDown}></div>
       <Fade bottom duration={500}>
         <div>
-          {/* <div className="blog_show_modal"> */}
           <div className={style.reactMarkDown}>
             <ReactMarkdown>
               {md}
             </ReactMarkdown>
-            {/* <div role="button" tabIndex={0} className="modal__btn flex-center" onClick={closeModal} onKeyDown={onKeyDown}>
-              <p>Back</p>
-            </div> */}
           </div>
         </div>
       </Fade>

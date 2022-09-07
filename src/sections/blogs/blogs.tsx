@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Swiper from "react-id-swiper";
+import { FcNext, FcPrevious } from 'react-icons/fc';
 
 import './blogs.scss'
 import "swiper/css/swiper.css";
-import { FcNext, FcPrevious } from 'react-icons/fc';
 
 import Title from "../../components/title/title"
 import BlogBox from "../../components/blogBox/blogBox"
@@ -119,7 +119,7 @@ export default function Blogs() {
   };
 
   return (
-    <div className="section-wrapper blogs" id="blogs">
+    <div className="section-wrapper main-color-background" id="blogs">
       {isBlogOnClick &&
         <BlogModal path={currentViewBlog} closeModal={closeModal} onKeyDown={closeModal} />
       }
