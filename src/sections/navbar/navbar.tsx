@@ -39,13 +39,18 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link activeClass="active-link" to="blogs" spy={true} smooth={true} offset={-102} duration={300}>
-                BLOGS
+              <Link activeClass="active-link" to="projects" spy={true} smooth={true} offset={-102} duration={300}>
+                PROJECTS
               </Link>
             </li>
             <li>
-              <Link activeClass="active-link" to="projects" spy={true} smooth={true} offset={-102} duration={300}>
-                PROJECTS
+              <Link activeClass="active-link" to="hackathons" spy={true} smooth={true} offset={-102} duration={300}>
+                HACKATHONS
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active-link" to="blogs" spy={true} smooth={true} offset={-102} duration={300}>
+                BLOGS
               </Link>
             </li>
             {/* <li>
