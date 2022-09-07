@@ -5,8 +5,6 @@ import InfoBox from "../../components/infoBox/info-box";
 import Title from "../../components/title/title";
 import ImageBox from "../../components/imageBox/image-box";
 
-import Photo1 from "../../assets/blogs/blog3/star.jpg"
-
 import './about.scss';
 
 export default function About() {
@@ -22,7 +20,7 @@ export default function About() {
         </div>
         <Row>
           <Col md={12} lg={4}>
-            <ImageBox image={Photo1} title="Ari Nguyen" subTitle="Web designer" />
+            <ImageBox image="/assets/blogs/blog3/star.jpg" title="Ari Nguyen" subTitle="Web designer" />
             {/* <InfoBox title='Little About Me' info='abcd' boxFooter='Read More' /> */}
           </Col>
           <Col md={12} lg={4}>

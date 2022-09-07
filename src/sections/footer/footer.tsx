@@ -2,8 +2,6 @@ import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 import { Link } from "react-scroll";
 
-import Arrow from "../../assets/footer/arrow.svg";
-
 import "./footer.scss";
 
 export default function Footer() {
@@ -20,7 +18,7 @@ export default function Footer() {
             <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
               <div className="footer-box back-to-top">
                 <p>BACK TO TOP</p>
-                <img src={Arrow} alt="arrow" />
+                <img src="/assets/footer/arrow.svg" alt="arrow" />
               </div>
             </Link>
           </Col>

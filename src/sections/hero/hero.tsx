@@ -4,7 +4,6 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
 import { useSpring, animated, config } from 'react-spring'
 
-import Ava from '../../assets/hero/ava_white.png';
 import Button from '../../components/button/button';
 
 import "./hero.scss";
@@ -40,7 +39,7 @@ export default function Hero() {
                 Computer Science Student
               </h1>
               <div className="hero-image-mobile">
-                <img className="hero-image-mobile-img" src={Ava} alt="hero" />
+                <img className="hero-image-mobile-img" src="/assets/hero/ava_white.png" alt="hero" />
               </div>
               <p className="font15">
                 Rising Senior at Drexel University.<br />
@@ -71,7 +70,7 @@ export default function Hero() {
           </Col>
           <Col md={12} lg={6}>
             <div >
-              <img className="hero-image" src={Ava} alt="hero" />
+              <img className="hero-image" src="/assets/hero/ava_white.png" alt="hero" />
             </div>
           </Col>
         </Row>
