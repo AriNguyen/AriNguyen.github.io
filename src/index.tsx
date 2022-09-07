@@ -12,7 +12,10 @@ import Hero from './sections/hero/hero';
 import About from './sections/about/about';
 import Experience from './sections/experience/experience';
 import Projects from './sections/projects/projects';
+import Hackathon from './sections/hackathon/hackathon';
 import Blogs from './sections/blogs/blogs';
+import Research from './sections/research/research';
+import Github from './sections/github/github';
 import Contact from './sections/contact/contact';
 import Footer from './sections/footer/footer';
 
@@ -23,8 +26,11 @@ function HomePage() {
       <Hero />
       <About />
       <Experience />
-      <Blogs />
       <Projects />
+      <Hackathon />
+      <Research />
+      <Github />
+      <Blogs />
       {/* <Contact /> */}
       <Footer />
     </div>
