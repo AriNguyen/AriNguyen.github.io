@@ -182,6 +182,18 @@ a {
   padding-bottom: 10px;
 }
 
+.main-color-background {
+  background-color: $main-color;
+}
+
+.white-color-background {
+  background-color: $white-color;
+}
+
+.black-color-background {
+  background-color: $black-color;
+}
+
 /*********************** SPACINGS ***********************/
 .padding5 {
   padding: 0.5rem 0;
