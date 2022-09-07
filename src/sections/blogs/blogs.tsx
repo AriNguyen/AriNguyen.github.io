@@ -9,11 +9,7 @@ import Title from "../../components/title/title"
 import BlogBox from "../../components/blogBox/blogBox"
 import BlogModal from "../../components/blogBox/blogModal";
 
-import Preview01 from "../../assets/blogs/blog1/hoyahacks.jpg";
-import Preview02 from "../../assets/blogs/blog2/hackru.jpg";
-import Preview03 from "../../assets/blogs/blog3/ai5.jpg";
-import Preview04 from "../../assets/blogs/blog4/teamDragons.png";
-import Preview05 from "../../assets/blogs/blog5/springGBM.jpg"
+import stories from "./blogs.json"
 
 type story = {
   image: string,
@@ -27,48 +23,7 @@ type story = {
 export default function Blogs() {
   const [isBlogOnClick, setIsBlogOnClick] = useState(false);
   const [currentViewBlog, setCurentViewBlog] = useState<string | "">("");
-  let stories = [
-    {
-      image: Preview01,
-      id: "1",
-      title: "My Story of Attending 14 Hackathons",
-      description: "description placeholder",
-      date: "July 23rd, 2022",
-      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/blog1.md"
-    },
-    {
-      image: Preview02,
-      id: "2",
-      title: "5 Lessons Learned from Attending 14 Hackathons",
-      description: "description placeholder",
-      date: "August 1st, 2022",
-      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog2/blog2.md"
-    },
-    {
-      image: Preview03,
-      id: "3",
-      title: "My Journey in Artificial Intelligence (So Far)",
-      description: "description placeholder",
-      date: "August 9th, 2022",
-      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog3/blog3.md"
-    },
-    {
-      image: Preview04,
-      id: "4",
-      title: "Attending Micro Air Vehicle (MAV) Student Challenge ",
-      description: "description placeholder",
-      date: "August 14th, 2022",
-      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/blog4.md"
-    },
-    {
-      image: Preview05,
-      id: "4",
-      title: "Things I Learned From Being the President of A Student Organization",
-      description: "description placeholder",
-      date: "August 21st, 2022",
-      blogPath: "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/blog5.md"
-    },
-  ];
+
   const params = {
     grabCursor: true,
     slidesPerView: 1,
