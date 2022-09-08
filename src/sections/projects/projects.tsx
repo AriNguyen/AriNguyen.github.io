@@ -69,33 +69,33 @@ export default function Projects() {
   };
 
   return (
-    <div id="projects" className='section-wrapper main-color-background'>
+    <div id="projects" className='section-wrapper white-color-background'>
       {isProjectOnClick && currentViewProject &&
         <ProjectModal project={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
       }
       <div className="wrapper">
-        <Title title="PROJECTS SHOWCASE." />
+        <Title title="PROJECTS." />
         <Row>
           <Col xs={12} sm={12} md={8} lg={9}>
-            <div className="projects__nav">
+            <div className="projects-nav">
               <ul>
-                <li className={pickedFilter === "all" ? "projects__nav-active font12" : "font12"}
+                <li className={pickedFilter === "all" ? "projects-nav-active font12" : "font12"}
                   onClick={() => setPickedFilter("all")}>
                   ALL
                 </li>
                 <li
-                  className={pickedFilter === "robotics" ? "projects__nav-active font12" : "font12"}
+                  className={pickedFilter === "robotics" ? "projects-nav-active font12" : "font12"}
                   onClick={() => setPickedFilter("robotics")}
                 >
                   ROBOTICS
                 </li>
                 <li
-                  className={pickedFilter === "ai/ml" ? "projects__nav-active font12" : "font12"}
+                  className={pickedFilter === "ai/ml" ? "projects-nav-active font12" : "font12"}
                   onClick={() => setPickedFilter("ai/ml")}
                 >
                   AI/ML
                 </li>
-                <li className={pickedFilter === "webMobile" ? "projects__nav-active font12" : "font12"}
+                <li className={pickedFilter === "webMobile" ? "projects-nav-active font12" : "font12"}
                   onClick={() => setPickedFilter("webMobile")}>
                   WEB & MOBILE APP
                 </li>
@@ -103,10 +103,10 @@ export default function Projects() {
             </div>
           </Col>
           <Col xs={12} sm={12} md={4} lg={3}>
-            <div className="projects__filter" onMouseEnter={() => setFilterMenuActive(true)} onMouseLeave={() => setFilterMenuActive(false)}>
+            <div className="projects-filter" onMouseEnter={() => setFilterMenuActive(true)} onMouseLeave={() => setFilterMenuActive(false)}>
               <p className="font12">{pickedFilterDropdown} FIRST</p>
               <img src="/assets/projects/arrow.svg" alt="arrow" />
-              {isFilterMenuActive && (<div className="portfolio__filter-menu shadow">
+              {isFilterMenuActive && (<div className="projects-filter-menu shadow">
                 <p className="font12" onClick={() => setPickedFilterDropdown("NEWEST")}>
                   NEWEST
                 </p>

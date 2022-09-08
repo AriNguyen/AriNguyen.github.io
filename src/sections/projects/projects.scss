@@ -5,7 +5,7 @@
   // padding: 20px 0 40px 0;
   // min-height: 100vh;
 
-  .projects__nav {
+  .projects-nav {
     ul {
       display: flex;
 
@@ -18,19 +18,21 @@
 
       li:hover {
         background-color: $main-color;
+        border-radius: 10px;
       }
     }
 
-    .projects__nav-active {
+    .projects-nav-active {
       background-color: $main-color;
+      border-radius: 10px;
     }
   }
 
-  .projects__filter {
+  .projects-filter {
     display: flex;
     justify-content: flex-end;
     cursor: pointer;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     background-attachment: fixed;
     max-width: 200px;
     float: right;
@@ -41,7 +43,7 @@
       padding-right: 10px;
     }
 
-    .projects__filter-menu {
+    .projects-filter-menu {
       background-color: $light-color;
       position: absolute;
       top: 40px;
@@ -49,7 +51,7 @@
       width: 100%;
       height: 100px;
       text-align: center;
-      border-radius: 5px;
+      border-radius: 10px;
       z-index: 999;
 
       p {
@@ -88,13 +90,13 @@
 
 @media screen and (max-width: 767px) {
   #projects {
-    .projects__nav {
+    .projects-nav {
       ul {
         justify-content: center;
       }
     }
 
-    .projects__filter {
+    .projects-filter {
       justify-content: center;
       max-width: 200px;
       margin: 30px auto;
@@ -106,7 +108,7 @@
 
 @media screen and (max-width: 400px) {
   #projects {
-    .projects__nav {
+    .projects-nav {
       ul {
         li {
           padding: 5px 5px;
