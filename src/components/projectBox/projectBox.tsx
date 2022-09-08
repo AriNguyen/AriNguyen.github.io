@@ -16,11 +16,11 @@ type projectBoxProps = {
 }
 export default function projectBox({ project, onClick }: projectBoxProps) {
   return (
-    <div className="project__box" onClick={onClick}>
-      <div className="flex-center project_img">
-        <img src={project.preview} alt="project" />
+    <div className="project-box border25" onClick={onClick}>
+      <div className="flex-center project-img border-top25">
+        <img className="border-top25" src={project.preview} alt="project" />
       </div>
-      <div className="blog__info">
+      <div className="blog-info black-color-background border-bottom25">
         <h4 className="font15 weight800">{project.title}</h4>
         <p className="font13 weight500 padding10">
           {project.description}
