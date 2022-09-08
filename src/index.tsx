@@ -26,8 +26,8 @@ function HomePage() {
       <Hero />
       <About />
       <Experience />
-      <Projects />
       <Hackathon />
+      <Projects />
       <Research />
       <Github />
       <Blogs />
