@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 
 import './navbar.scss';
@@ -39,13 +38,28 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
+              <Link activeClass="active-link" to="hackathons" spy={true} smooth={true} offset={-102} duration={300}>
+                HACKATHONS
+              </Link>
+            </li>
+            <li>
               <Link activeClass="active-link" to="projects" spy={true} smooth={true} offset={-102} duration={300}>
                 PROJECTS
               </Link>
             </li>
             <li>
-              <Link activeClass="active-link" to="hackathons" spy={true} smooth={true} offset={-102} duration={300}>
-                HACKATHONS
+              <Link activeClass="active-link" to="research" spy={true} smooth={true} offset={-102} duration={300}>
+                RESEARCH
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active-link" to="github" spy={true} smooth={true} offset={-102} duration={300}>
+                GITHUB
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active-link" to="github" spy={true} smooth={true} offset={-102} duration={300}>
+                LEADERSHIP
               </Link>
             </li>
             <li>
