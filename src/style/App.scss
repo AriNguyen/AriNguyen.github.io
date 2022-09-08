@@ -188,13 +188,19 @@ a {
 
 .white-color-background {
   background-color: $white-color;
+  color: $black-color;
 }
 
 .black-color-background {
   background-color: $black-color;
+  color: white;
 }
 
 /*********************** SPACINGS ***********************/
+.padding0 {
+  padding: 0;
+}
+
 .padding5 {
   padding: 0.5rem 0;
 }
@@ -314,5 +320,26 @@ p {
 // Hover color for navbar
 .active-link {
   color: $main-color;
+}
+
+/*********************** BORDER ***********************/
+.border25 {
+  border-radius: 25px;
+}
+
+.border-top25 {
+  border-radius: 25px 25px 0 0;
+}
+
+.border-bottom25 {
+  border-radius: 0 0 25px 25px;
+}
+
+.border-left25 {
+  border-radius: 25px 0 0 25px;
+}
+
+.border-right25 {
+  border-radius: 0 25px 25px 0;
 }
 
