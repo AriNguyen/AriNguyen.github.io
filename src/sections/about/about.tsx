@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from "react-flexbox-grid";
 
-import InfoBox from "../../components/infoBox/info-box";
+import InfoBox from "../../components/infoBox/infoBox";
 import Title from "../../components/title/title";
-import ImageBox from "../../components/imageBox/image-box";
+import ImageBox from "../../components/imageBox/imageBox";
 
 import './about.scss';
 
@@ -25,14 +25,16 @@ export default function About() {
           </Col>
           <Col md={12} lg={4}>
             {/* <ImageBox title='tile' subTitle='subTitle' /> */}
-            <InfoBox title='' subTitle='' title2='' subTitle2='' info='When I was little, I was amazed at how tech innovations 
+            <InfoBox title='' subTitle='' info='When I was little, I was amazed at how tech innovations 
             transform our lives and businesses. Thus, I chose to major in Computer Science because it allows 
-            me to pursue both of my passions: producing creative work and solving social problems.' boxFooter='' />
+            me to pursue both of my passions: producing creative work and solving social problems.' 
+            boxFooter='' />
           </Col>
           <Col md={12} lg={4}>
-            <InfoBox title='' subTitle='' title2='' subTitle2='' info='I’m driven to solve meaningful and challenging real-world problems using technology. 
+            <InfoBox title='' subTitle='' info='I’m driven to solve meaningful and challenging real-world problems using technology. 
             I enjoy building projects with my friends. 
-            I’ve attended 14 hackathons and achieved 7 awards. My projects focus on solving social good, accessibility, and environmental issues.' boxFooter='' />
+            I’ve attended 14 hackathons and achieved 7 awards. My projects focus on solving social good, accessibility, and environmental issues.' 
+            boxFooter='' />
           </Col>
         </Row>
       </div>
