@@ -5,7 +5,7 @@
       "title": "My Story of Attending 14 Hackathons",
       "description": "description placeholder",
       "date": "July 23rd, 2022",
-      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog1/blog1.md"
+      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog1/blog1.md"
     },
     {
       "image": "./assets/blogs/blog2/hackru.jpg",
@@ -13,7 +13,7 @@
       "title": "5 Lessons Learned from Attending 14 Hackathons",
       "description": "description placeholder",
       "date": "August 1st, 2022",
-      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog2/blog2.md"
+      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog2/blog2.md"
     },
     {
       "image": "./assets/blogs/blog3/ai5.jpg",
@@ -21,7 +21,7 @@
       "title": "My Journey in Artificial Intelligence (So Far)",
       "description": "description placeholder",
       "date": "August 9th, 2022",
-      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog3/blog3.md"
+      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog3/blog3.md"
     },
     {
       "image": "./assets/blogs/blog4/teamDragons.png",
@@ -29,7 +29,7 @@
       "title": "Attending Micro Air Vehicle (MAV) Student Challenge ",
       "description": "description placeholder",
       "date": "August 14th, 2022",
-      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/blog4.md"
+      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog4/blog4.md"
     },
     {
       "image": "./assets/blogs/blog5/springGBM.jpg",
@@ -37,6 +37,6 @@
       "title": "Things I Learned From Being the President of A Student Organization",
       "description": "description placeholder",
       "date": "August 21st, 2022",
-      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog5/blog5.md"
+      "blogPath": "https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog5/blog5.md"
     }
 ]
