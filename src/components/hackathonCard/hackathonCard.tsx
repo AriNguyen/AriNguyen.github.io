@@ -1,4 +1,4 @@
-import { Row, Col } from "react-flexbox-grid";
+import { Row } from "react-flexbox-grid";
 
 import "./hackathonCard.scss";
 

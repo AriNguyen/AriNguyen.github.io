@@ -1,7 +1,4 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown'
-import Fade from "react-reveal/Fade";
-
 
 import "./blogBox.scss"
 

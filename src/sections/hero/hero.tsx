@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
 import { Row, Col } from "react-flexbox-grid";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
-import { useSpring, animated, config } from 'react-spring'
+import { useSpring, animated } from 'react-spring'
 
 import Button from '../../components/button/button';
 
@@ -10,7 +9,6 @@ import "./hero.scss";
 import { COLORS } from "../../style/colors";
 
 export default function Hero() {
-  const [flip, set] = useState(false)
   const styles = useSpring({
     loop: true,
     to: [

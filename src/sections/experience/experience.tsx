@@ -1,8 +1,4 @@
-import React from 'react';
 import { Row, Col } from "react-flexbox-grid";
-import { MdWork } from 'react-icons/md';
-import {IoMdSchool } from 'react-icons/io';
-import Icon from '@mui/material/Icon';
 
 import 'react-vertical-timeline-component/style.min.css';
 import './experience.scss';

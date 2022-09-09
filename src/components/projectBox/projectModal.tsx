@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import ReactMarkdown from 'react-markdown'
 import Swiper from "react-id-swiper";
-import { Row, Col } from "react-flexbox-grid";
+import { Row } from "react-flexbox-grid";
 
 
 import "./projectBox";

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import ReactMarkdown from 'react-markdown'
 
@@ -15,7 +15,7 @@ export default function BlogModal({ path, closeModal, onKeyDown }: blogModalProp
   const [md, setMD] = useState("");
   const apiAddress: string | undefined = path;
 
-  if (!apiAddress) throw 'API address not defined'
+  if (!apiAddress) throw 'API address not defined';
 
   fetch(apiAddress)
     .then(response => {
