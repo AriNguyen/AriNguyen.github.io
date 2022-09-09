@@ -9,22 +9,28 @@ import "./hackathon.scss";
 
 export default function Hackathon() {
   const params = {
+    effect: 'coverflow',
     grabCursor: true,
-    slidesPerView: 1,
-    spaceBetween: 10,
+    // slidesPerView: 1,
+    // spaceBetween: 10,
     loop: false,
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     type: "bullets",
-    //     clickable: true
-    // },
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    pagination: {
+        el: ".swiper-pagination",
+        // type: "bullets",
+        // clickable: true
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      hide: false
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true
     },
     renderPrevButton: () => <FcPrevious className="swiper-button-prev swiper-button-big"></FcPrevious>,
     renderNextButton: () => <FcNext className="swiper-button-next swiper-button-big"></FcNext>,

@@ -47,21 +47,22 @@ export default function Navbar() {
                 PROJECTS
               </Link>
             </li>
-            <li>
+            {/* <li>
+              <Link activeClass="active-link" to="github" spy={true} smooth={true} offset={-102} duration={300}>
+                GITHUB
+              </Link>
+            </li> */}
+            {/* <li>
               <Link activeClass="active-link" to="research" spy={true} smooth={true} offset={-102} duration={300}>
                 RESEARCH
               </Link>
             </li>
-            <li>
-              <Link activeClass="active-link" to="github" spy={true} smooth={true} offset={-102} duration={300}>
-                GITHUB
-              </Link>
-            </li>
+
             <li>
               <Link activeClass="active-link" to="github" spy={true} smooth={true} offset={-102} duration={300}>
                 LEADERSHIP
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link activeClass="active-link" to="blogs" spy={true} smooth={true} offset={-102} duration={300}>
                 BLOGS

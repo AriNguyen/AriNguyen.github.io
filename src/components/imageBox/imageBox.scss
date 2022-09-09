@@ -1,11 +1,13 @@
 @import '../../style/App.scss';
 
-.team-box {
-  // max-width: 370px;
+.image-box {
+  max-width: 370px;
   height: 420px;
   margin: 0 auto;
-  margin-top: 60px;
+  // margin-top: 60px;
   position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
   
   img {
     width: 100%;
@@ -13,7 +15,7 @@
     object-fit: cover;
   }
 
-  .team-box-info {
+  .image-box-info {
     background-color: $black-color;
     position: absolute;
     bottom: 0;

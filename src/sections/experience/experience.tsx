@@ -15,9 +15,9 @@ export default function Experience() {
   return (
     <div className='experience section-wrapper'>
       <div className='wrapper'>
+      <Title title='SKILLS & EXPERIENCE.' />
         <Row>
           <Col md={12} lg={6}>
-            <Title title='SKILLS & EXPERIENCE.' />
             <div className='experience-skills'>
               <div className="skills">
                 <div className="skillsGrid">

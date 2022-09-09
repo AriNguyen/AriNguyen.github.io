@@ -28,8 +28,8 @@ function HomePage() {
       <Experience />
       <Hackathon />
       <Projects />
-      <Research />
-      <Github />
+      {/* <Github /> */}
+      {/* <Research /> */}
       <Blogs />
       {/* <Contact /> */}
       <Footer />

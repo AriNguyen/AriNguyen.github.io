@@ -1,108 +1,116 @@
 [
   {
-      "id": "1",
-      "preview": "/assets/projects/project1/preview.jpg", 
-      "title": "Speak Your Mind",
-      "description": "Eye Tracking and Speech Generating App - Help People with Paralysis Communicate",
-      "tag": [
+    "id": "1",
+    "preview": "/assets/projects/project1/preview.jpg",
+    "title": "Speak Your Mind",
+    "description": "Eye Tracking and Speech Generating App - Help People with Paralysis Communicate",
+    "skills": ["Python (OpenCV, Dlib, tkinter, Pygame), Google Cloud Text to Speech Client Libraries"],
+    "tag": [
       "robotics",
       "ai/ml"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/speakYourMind.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/speakYourMind.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "2",
-      "preview": "/assets/projects/project2/preview.jpg",
-      "title": "Object Avoidance and Detection Device",
-      "description": "Allows visually impaired people navigate around easily and find a particular object with ease.",
-      "tag": [
+    "id": "2",
+    "preview": "/assets/projects/project2/preview.jpg",
+    "title": "Navigation Device",
+    "description": "Allows visually impaired people navigate around easily and find a particular object with ease.",
+    "skills": ["Python, OpenCV, NVIDIA Jetson Nano, Intel RealSense depth camera D435", "Linux"],
+    "tag": [
       "robotics",
       "ai/ml"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/objectAvoidance.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/objectAvoidance.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "3",
-      "preview": "/assets/projects/project3/preview.jpg",
-      "title": "Smart Wheelchair For People with Disability",
-      "description": "Help severely paralyzed patients navigate indoor and outdoor environments",
-      "tag": [
+    "id": "3",
+    "preview": "/assets/projects/project3/preview.jpg",
+    "title": "Smart Wheelchair",
+    "description": "Help severely paralyzed patients navigate indoor and outdoor environments",
+    "skills": ["Python", "OpenCV", "UCTRONICS Robot Car Kit", "Raspberry Pi", "Arduino", "camera", "IMU sensor"],
+    "tag": [
       "robotics"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/wheelChair.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/wheelChair.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "4",
-      "preview": "/assets/projects/project4/preview.jpg",
-      "title": "SmartFridge App",
-      "description": "Mobile App to Reduce Food Waste",
-      "tag": [
+    "id": "4",
+    "preview": "/assets/projects/project4/preview.jpg",
+    "title": "SmartFridge App",
+    "description": "Mobile App to Reduce Food Waste",
+    "skills": ["React Native", "Expo", "Spoonacular API", "Google Map API", "TensorFlow.js", "SQLite", "Redux"],
+    "tag": [
       "webMobile"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/delisa.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/delisa.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "5",
-      "preview": "/assets/projects/project5/preview.jpg",
-      "title": "DeepSign Game",
-      "description": "Interactive fun Unity Game for learning American Sign Language",
-      "tag": [
+    "id": "5",
+    "preview": "/assets/projects/project5/preview.jpg",
+    "title": "DeepSign Game",
+    "description": "Interactive fun Unity Game for learning American Sign Language",
+    "skills": ["Unity3D", "C#", "Python", "Tensoflow", "UDP Connection", "Threading", "Socket Programming"],
+    "tag": [
       "ai/ml"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/deepSign.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/deepSign.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "6",
-      "preview": "/assets/projects/project6/preview.png",
-      "title": "Todo List using Speech Recognition Web App",
-      "description": "",
-      "tag": [
+    "id": "6",
+    "preview": "/assets/projects/project6/preview.png",
+    "title": "Smart Todo List Web App",
+    "description": "A website to generates a todo-list dashboard with speech-generating",
+    "skills": ["React JS", "express", "postgresql", "bootstrap", "HTML5 Speech Recognition AP"],
+    "tag": [
       "webMobile"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/todoList.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/todoList.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "7",
-      "preview": "/assets/projects/project7/preview.jpg",
-      "title": "AURA",
-      "description": "Virtual Assistant helps navigate around, find objects, understand the world",
-      "tag": [
+    "id": "7",
+    "preview": "/assets/projects/project7/preview.jpg",
+    "title": "AURA",
+    "description": "Virtual Assistant helps navigate around, find objects, understand the world",
+    "skills": ["Python (Keras, OpenCV)", "Microsoft Azure", "NVIDIA Jetson Nano", "Intel RealSense depth camera D435"],
+    "tag": [
       "ai/ml",
       "robotics"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/aura.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/aura.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   },
   {
-      "id": "8",
-      "preview": "/assets/projects/project8/preview.jpg",
-      "title": "CodeGrindr - Hackathon Team Forming App",
-      "description": "A solution for effective Hackathon team formation",
-      "tag": [
+    "id": "8",
+    "preview": "/assets/projects/project8/preview.jpg",
+    "title": "CodeGrindr",
+    "description": "Hackathon Team Forming App: A solution for effective Hackathon team formation",
+    "skills": ["Java", "Android Studio", "AWS", "MySQL", "Sketch"],
+    "tag": [
       "webMobile"
     ],
-      "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/codeGrindr.md",
-      "imgs": [
+    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/codeGrindr.md",
+    "imgs": [
       "https://github.com/AriNguyen/aringuyen.github.io/blob/master/src/assets/projects/project1/preview.jpg?raw=true"
     ]
   }

@@ -21,13 +21,13 @@
   p {
     padding-bottom: 20px;
   }
-  p:last-child {
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  p:last-child:hover {
-    color: $main-color;
-  }
+  // p:last-child {
+  //   cursor: pointer;
+  //   transition: 0.3s ease;
+  // }
+  // p:last-child:hover {
+  //   color: $main-color;
+  // }
 }
 
 @media screen and (max-width: 1080px) {

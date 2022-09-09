@@ -14,6 +14,7 @@ type project = {
   preview: string,
   title: string,
   description: string,
+  skills: Array<string>,
   tag: Array<string>,
   path: string,
   imgs: Array<string>,
@@ -26,10 +27,11 @@ export default function Projects() {
     preview: string, 
     title: string, 
     description: string,
+    skills: Array<string>,
     tag: Array<string>, 
     path: string, 
     imgs: Array<string>
-  }>({id: "", preview: "", title: "", description: "", tag: [""], path: "", imgs: [""]});
+  }>({id: "", preview: "", title: "", description: "", skills: [""], tag: [""], path: "", imgs: [""]});
   
   const [filterResult, setFilterResult] = useState(projects);
   const [pickedFilter, setPickedFilter] = useState("all");
