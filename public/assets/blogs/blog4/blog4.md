@@ -14,7 +14,7 @@ Our team built multiple prototypes of drones within 6 months. We designed, fixed
 
 In the last few months, the team recruited new members, and I led the control team to ensure that the drones could fly and be remotely controlled. The biggest trouble was that the drones were not stable. No matter how hard we tried, the drones kept crashing. The primary struggle was that our team comprised first-year students without experience building drones. Luckily, we were mentored by an amazing professor and senior students who were also building drones for their senior projects. The drones were able to fly around and carry the package. 
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/droneFrame.jpg)
+![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog4/droneFrame.jpg)
 *Drone frame and electrical parts*
 
 
@@ -22,11 +22,11 @@ In the last few months, the team recruited new members, and I led the control te
 
 Because most of the teammates were freshmen, we spent months learning the basics. So when we knew that we got selected to be the finalists, there were only a few months left while many tasks were yet to be done. The team rushed to make the design presentation, record a flight demo, and try mimicking the package delivery mission. The most challenging part was controlling the drone to avoid several obstacles between the home base and the drop-off/pickup area.
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/map.png)
+![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog4/map.png)
 
 *The approximate map layout of the final competition*
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/mav-demo-team.jpg)
+![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog4/mav-demo-team.jpg)
 
 *Drexel team presenting at the competition*
 
@@ -36,11 +36,11 @@ In the final round, we presented our design to the judges from VFS. Unfortunatel
 
 MAV 2019 was the first time I competed in a robotics competition. It was so fascinating that I later became more interested in robotics and machine learning. During 6 months of building drones, I learned to work with many students from different majors and even had a chance to lead the control team. As an international student, it was eye-opening to work with the newest technology in the research lab and see other teams from different colleges competing.   
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/src/assets/blogs/blog4/mav-watch.jpg)
+![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog4/mav-watch.jpg)
 
 *Drexel team watching other teams competing*
 
-![](https://github.com/AriNguyen/aringuyen.github.io/raw/master/src/assets/blogs/blog4/mav-whole.jpg)
+![](https://github.com/AriNguyen/aringuyen.github.io/raw/master/public/assets/blogs/blog4/mav-whole.jpg)
 
 *Photo of all teams attending MAV 2019*
 
