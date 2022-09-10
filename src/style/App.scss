@@ -177,11 +177,6 @@ a {
   box-shadow: 0px 2px 6px 2px rgba(92, 112, 133, 0.1);
 }
 
-.section-wrapper {
-  min-height: calc(100vh - 102px);
-  padding-bottom: 10px;
-}
-
 .main-color-background {
   background-color: $main-color;
 }
@@ -343,3 +338,22 @@ p {
   border-radius: 0 10px 10px 0;
 }
 
+/*********************** SECTION ***********************/
+
+.section-wrapper {
+  min-height: calc(100vh - 102px);
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .section-wrapper {
+    min-height: calc(100vh - 60px);
+  }
+
+}
+
+@media screen and (max-width: 990px) {
+  .section-wrapper {
+    min-height: calc(100vh - 60px);
+  }
+}

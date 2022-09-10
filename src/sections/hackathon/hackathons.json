@@ -5,7 +5,7 @@
     "subTitle": "HackRU Fall 2019 | Rutgers University",
     "title2": "",
     "subTitle2": "",
-    "info": "asdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasd",
+    "info": "",
     "boxFooter": ""
   },
   {
@@ -14,25 +14,25 @@
     "subTitle": "HackPSU Fall 2019 | Penn State University",
     "title2": "",
     "subTitle2": "",
-    "info": "asdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasd",
+    "info": "",
     "boxFooter": ""
   },
   {
     "image": "./assets/projects/project4/preview.jpg",
     "title": "1st Place out of 17 teams | Boomi Challenge",
     "subTitle": "Philly Codefest 2020",
-    "title2": "The Wolfram Award",
+    "title2": "& The Wolfram Award",
     "subTitle2": "DeltaX Hacks",
-    "info": "asdfsdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasd",
+    "info": "",
     "boxFooter": ""
   },
   {
     "image": "./assets/blogs/blog1/dragonhacks.jpg",
     "title": "Winner - 1st Choice Pick",
     "subTitle": "",
-    "title2": "Best Hack for Social Good",
+    "title2": "& Best Hack for Social Good",
     "subTitle2": "DragonHacks 2021 | Drexel University",
-    "info": "asdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasdasdfadsfasd",
+    "info": "",
     "boxFooter": ""
   }
 ]

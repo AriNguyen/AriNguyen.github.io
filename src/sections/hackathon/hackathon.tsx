@@ -13,7 +13,7 @@ export default function Hackathon() {
     grabCursor: true,
     // slidesPerView: 1,
     // spaceBetween: 10,
-    loop: false,
+    loop: true,
     centeredSlides: true,
     slidesPerView: 'auto',
     pagination: {

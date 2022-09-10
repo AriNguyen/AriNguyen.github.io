@@ -39,7 +39,8 @@ export default function Projects() {
   const [pickedFilterDropdown, setPickedFilterDropdown] = useState("NEWEST");
   const projectsBreakpoints = {
     default: 3,
-    900: 2,
+    // 1100: 2,
+    990: 2,
     700: 2,
     500: 1,
   };

@@ -3,3 +3,13 @@
 .swiper-slide {
     max-width: 90% !important;
 }
+
+@media screen and (max-width: 1080px) {
+    .swiper-slide {
+        max-width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+}

@@ -48,9 +48,9 @@ export default function Hero() {
                 {/* <Col className='message-button' md={12} lg={4}>
                   <Button target='' label="SEND MESSAGE"></Button>
                 </Col> */}
-                <Col>
+                {/* <Col> */}
                   <Button label="VIEW RESUME" target="https://drive.google.com/file/d/121u0fYeyyGOzaho2eYPjjhdH8q0WgCQy/view?usp=sharing"></Button>
-                </Col>
+                {/* </Col> */}
               </Row>
               <Row className="hero-row social-test">
                   {/* <ul className="social"> */}
