@@ -11,7 +11,7 @@ export default function Experience() {
   return (
     <div className='experience section-wrapper'>
       <div className='wrapper'>
-      <Title title='SKILLS & EXPERIENCE.' />
+      <Title title='EXPERIENCE.' />
         <Row>
           <Col md={12} lg={6}>
             <div className='experience-skills'>

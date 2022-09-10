@@ -1,6 +1,6 @@
 @import '../../style/App.scss';
 
-.blog__box {
+.blog-box {
   background-color: $white-color;
   width: 100%;
   max-width: 370px;
@@ -11,7 +11,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
-  .blog__image {
+  .blog-image {
     width: 100%;
     min-height: 250px;
     position: relative;
@@ -23,7 +23,7 @@
       object-fit: cover;
     }
 
-    .blog__hover {
+    .blog-hover {
       cursor: pointer;
       transition: 0.3s ease;
       background-color: rgba($main-color, 0.8);
@@ -36,14 +36,15 @@
     }
   }
 
-  .blog__image:hover {
-    .blog__hover {
+  .blog-image:hover {
+    .blog-hover {
       opacity: 1;
     }
   }
 
   .blog__info {
     padding: 35px;
+    min-height: 170px;
 
     h4 {
       text-transform: uppercase;
@@ -52,7 +53,7 @@
 }
 
 @media screen and (max-width: 990px) {
-  .blog__box {
+  .blog-box {
     .blog__info {
       text-align: center;
     }

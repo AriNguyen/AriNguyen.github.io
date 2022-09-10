@@ -22,10 +22,10 @@ export default function Navbar() {
             {/* <img src={} alt="logo" className="pointer" /> */}
           </Link>
         </div>
-        <div className="mobile__menu" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+        <div className="mobile-menu" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
           {/* <img src={MobileMenuIcon} alt="menu" /> */}
         </div>
-        <div className="desktop__menu">
+        <div className="desktop-menu">
           <ul className="flex-s-between">
             <li>
               <Link activeClass="active-link" to="about" spy={true} smooth={true} offset={-102} duration={300}>
