@@ -2,7 +2,7 @@
 ---
 *Published: July 23rd, 2022*
 
-![My First Hackathon](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog1/njit.jpg?raw=true)
+![My First Hackathon](/assets/blogs/blog1/njit.jpg)
 
 I didn't know what a hackathon was until seeing someone winning their first place award on LinkedIn. I didn't know how to code before college and hadn't built any projects at that time. I get motivated to attend a hackathon and win something when I see people sharing their winning experiences on LinkedIn. 
 
