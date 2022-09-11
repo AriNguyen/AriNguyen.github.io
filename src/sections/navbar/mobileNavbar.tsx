@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-scroll';
 
-import CloseIcons from '/assets/navbar/mobile-close.svg';
+// import CloseIcons from '/assets/navbar/mobile-close.svg';
 // import Logo from "../../assets/navbar/logo-yellow.svg";
 
 type mobileNavProps = {
@@ -13,7 +13,7 @@ export default function mobileNav({isOpen, closeMobileMenu}: mobileNavProps) {
     return (
         <div className={`mobile-navbar ${isOpen ? "mobile-open" : ""}`}>
     <div className="mobile-navbar-close" onClick={closeMobileMenu}>
-      <img src={CloseIcons} alt="close" />
+      {/* <img src={CloseIcons} alt="close" /> */}
     </div>
     <div className="mobile-navbar-logo flex-center">
       <Link
