@@ -2,7 +2,7 @@
 ---
 *Published: Aug 1st, 2022*
 
-![The First Hackathon Win](https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/blogs/blog2/hackru.jpg?raw=true)
+![The First Hackathon Win](/assets/blogs/blog2/hackru.jpg?raw=true)
 
 ## The reason I write this blog
 At the time I'm writing this blog, I'm a rising senior computer science student and starting to apply for software engineering new grad jobs. 
@@ -19,7 +19,7 @@ In my 4th hackathon, our team decided to build a mobile app. Before the hackatho
 
 I always see hackathons as opportunities to learn new things. There's no shame in not knowing anything. Your attitude towards learning new things is the most valuable. 
 
-![UI of the Mobile App from HoyaHacks 2020](https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/blogs/blog2/codegrindr.jpg?raw=true)
+![UI of the Mobile App from HoyaHacks 2020](/assets/blogs/blog2/codegrindr.jpg?raw=true)
 
 ## Lesson 2: Idea makes perfect
 Brainstorming idea is important. So make sure your team has everyone involved in listing all possible ideas, and then vote for the shortlist. 
