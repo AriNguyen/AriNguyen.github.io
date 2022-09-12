@@ -9,7 +9,7 @@
       "robotics",
       "ai/ml"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/speakYourMind.md",
+    "path": "/assets/projects/project1/hackru.md",
     "imgs": [
       "/assets/projects/project1/preview.jpg"
     ]
@@ -24,9 +24,9 @@
       "robotics",
       "ai/ml"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/objectAvoidance.md",
+    "path": "/assets/projects/project2/objectAvoidance.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project2/preview.jpg"
     ]
   },
   {
@@ -38,37 +38,45 @@
     "tag": [
       "robotics"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/wheelChair.md",
+    "path": "/assets/projects/project3/wheelChair.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project3/preview.jpg"
     ]
   },
   {
     "id": "4",
-    "preview": "/assets/projects/project4/preview.jpg",
+    "preview": "/assets/projects/project4/1.png",
     "title": "SmartFridge App",
     "description": "Mobile App to Reduce Food Waste",
     "skills": ["React Native", "Expo", "Spoonacular API", "Google Map API", "TensorFlow.js", "SQLite", "Redux"],
     "tag": [
       "webMobile"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/delisa.md",
+    "path": "/assets/projects/project4/delisa.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project4/1.png",
+      "/assets/projects/project4/2.png",
+      "/assets/projects/project4/3.png",
+      "/assets/projects/project4/4.png",
+      "/assets/projects/project4/5.png",
+      "/assets/projects/project4/6.png"
     ]
   },
   {
     "id": "5",
-    "preview": "/assets/projects/project5/preview.jpg",
+    "preview": "/assets/projects/project5/1.png",
     "title": "DeepSign Game",
     "description": "Interactive fun Unity Game for learning American Sign Language",
     "skills": ["Unity3D", "C#", "Python", "Tensoflow", "UDP Connection", "Threading", "Socket Programming"],
     "tag": [
       "ai/ml"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/deepSign.md",
+    "path": "/assets/projects/project5/deepSign.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project5/1.png",
+      "/assets/projects/project5/2.png",
+      "/assets/projects/project5/3.png",
+      "/assets/projects/project5/4.png"
     ]
   },
   {
@@ -80,9 +88,9 @@
     "tag": [
       "webMobile"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/todoList.md",
+    "path": "/assets/projects/project6/todoList.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project6/preview.png"
     ]
   },
   {
@@ -95,23 +103,28 @@
       "ai/ml",
       "robotics"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/aura.md",
+    "path": "/assets/projects/project7/aura.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project7/preview.jpg"
     ]
   },
   {
     "id": "8",
-    "preview": "/assets/projects/project8/preview.jpg",
+    "preview": "/assets/projects/project8/1.png",
     "title": "CodeGrindr",
     "description": "Hackathon Team Forming App: A solution for effective Hackathon team formation",
     "skills": ["Java", "Android Studio", "AWS", "MySQL", "Sketch"],
     "tag": [
       "webMobile"
     ],
-    "path": "https://raw.githubusercontent.com/AriNguyen/project_readme/master/codeGrindr.md",
+    "path": "/assets/projects/project8/codeGrindr.md",
     "imgs": [
-      "https://github.com/AriNguyen/aringuyen.github.io/blob/master/public/assets/projects/project1/preview.jpg?raw=true"
+      "/assets/projects/project8/1.png",
+      "/assets/projects/project8/2.png",
+      "/assets/projects/project8/3.png",
+      "/assets/projects/project8/4.png",
+      "/assets/projects/project8/5.png",
+      "/assets/projects/project8/6.png"
     ]
   }
 ]

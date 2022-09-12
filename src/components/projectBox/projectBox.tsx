@@ -26,9 +26,9 @@ export default function projectBox({ project, onClick }: projectBoxProps) {
         <p className="font13 weight500 padding10">
           {project.description}
         </p>
-        <p className="font13 weight500 padding10">
+        {/* <p className="font13 weight500 padding10">
           <b>Skills:</b> {project.skills.join(", ")}
-        </p>
+        </p> */}
       </div>
     </div>
   )

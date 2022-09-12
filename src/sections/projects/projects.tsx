@@ -100,7 +100,7 @@ export default function Projects() {
                 </li>
                 <li className={pickedFilter === "webMobile" ? "projects-nav-active font12" : "font12"}
                   onClick={() => setPickedFilter("webMobile")}>
-                  WEB & MOBILE APP
+                  WEB & MOBILE
                 </li>
               </ul>
             </div>

@@ -5,7 +5,7 @@ import Swiper from "react-id-swiper";
 import { Row } from "react-flexbox-grid";
 
 
-import "./projectBox";
+import "./projectModal.scss";
 import style from "./markdown.module.scss";
 
 import "swiper/css/swiper.css";
@@ -69,6 +69,7 @@ export default function ProjectModal({ project, closeModal, onKeyDown }: project
             <p>
               {project.description}
             </p>
+
             <Row className="img-showcase" >
               <Swiper {...params}>
                 {project.imgs && project.imgs.map(img => (
@@ -78,9 +79,12 @@ export default function ProjectModal({ project, closeModal, onKeyDown }: project
             </Row>
 
             <Row>
+              <div>
               <ReactMarkdown>
                 {md}
               </ReactMarkdown>
+                </div>
+              
             </Row>
 
           </div>

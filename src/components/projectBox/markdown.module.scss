@@ -43,7 +43,7 @@
 .reactMarkDown h3 {
   font-weight: 500;
   font-size: 14px;
-  color: #2196f3;
+  color: $black-color;
   margin: 16px 0;
 }
 
@@ -86,6 +86,14 @@
   font-family: "Georgia", sans-serif;
 }
 
+.reactMarkDown p strong {
+  font-weight: 700;
+  font-size: 18px;
+  // margin: 20px 0;
+  color: $black-color;
+  font-family: "Georgia", sans-serif;
+}
+
 .reactMarkDown p a {
   color: #2196f3;
 }
@@ -120,17 +128,17 @@
 }
 
 .reactMarkDown img {
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   max-height: 430px;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   margin: 0 auto;
 }
 
 @media (max-width: 900px) {
   .reactMarkDown {
-    padding: 60px 80px;
+    padding: 20px 40px;
   }
 
   .reactMarkDown h1 {
@@ -139,7 +147,7 @@
   }
 
   .reactMarkDown p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .reactMarkDown h2 {
