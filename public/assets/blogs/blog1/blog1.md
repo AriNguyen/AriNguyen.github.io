@@ -16,23 +16,23 @@ YESSSS, I won the first hackathon in my second time attending the hackathon. I p
 
 The inspiration of this project is to help people living with paralysis communicate. Inspired to help these people make a normal conversation, we created a desktop app to help severely paralytic people speak out loud about their thoughts using their eyes and head movements.
 
-![The First Hackathon Win](/assets/blogs/blog1/hackru.jpg?raw=true)
+![The First Hackathon Win](/assets/blogs/blog1/hackru.jpg)
 
 *First Hackathon Win at HackRU Fall 2019*
 
-![GUI Speak Your Mind](/assets/blogs/blog1/speak-your-mind.jpg?raw=true)
+![GUI Speak Your Mind](/assets/blogs/blog1/speak-your-mind.jpg)
 
 *The interface of our project*
 
 ## The Second Hackathon Win
 In our second hackathon win, we built a rover that simulates a smart wheelchair for people living with paralysis. We took the opportunity to visit our friends at Penn State University. It was so nice meeting new friends and winning the second hackathon award. 
 
-![The Second Hackathon Winn](/assets/blogs/blog1/hackpsu.jpg?raw=true)
+![The Second Hackathon Winn](/assets/blogs/blog1/hackpsu.jpg)
 
 ## The "Yummy" Hackathon
 One of the most memorable hackathons is Hoya Hacks at Georgetown University, Washington DC. We didn't win anything but enjoyed building things and the best ramen ever, JINYA Ramen Bar. It's a must-try!
 
-![Hoyahacks Hackathon](/assets/blogs/blog1/hoyahacks.jpg?raw=true)
+![Hoyahacks Hackathon](/assets/blogs/blog1/hoyahacks.jpg)
 
 ## My Latest and Most-Proud Hackathon Win
 I got my latest hackathon award, 1st Place Overall and Best Hack for Social Good, in the most recent hackathon DragonHacks 2021, hosted by Drexel IEEE. 
@@ -40,7 +40,7 @@ I got my latest hackathon award, 1st Place Overall and Best Hack for Social Good
 Our project is to build an interactive game to learn American Sign Language (ASL). We implemented transfer learning, a machine learning technique, in image classification tasks using Python, OpenCV, and Tensorflow. The program can recognize 29 classes of hand gestures.
 
 
-![DragonHacks 2021](/assets/blogs/blog1/dragonhacks.jpg?raw=true)
+![DragonHacks 2021](/assets/blogs/blog1/dragonhacks.jpg)
 
 ## Lessons Learned from Attending 10+ hackathons
 - It is totally OK to not win anything. 

@@ -2,7 +2,7 @@
 ---
 *Published: Aug 14th, 2022*
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog5/springGBM.jpg)
+![](/assets/blogs/blog5/springGBM.jpg)
 
 *Spring General Body Meeting of Drexel Women in Computing Society*
 
@@ -32,7 +32,7 @@ The third lesson I learn is that conflicts can be beneficial for an organization
 
 ## Final thoughts
 
-![](https://raw.githubusercontent.com/AriNguyen/aringuyen.github.io/master/public/assets/blogs/blog5/officers.jpg)
+![](/assets/blogs/blog5/officers.jpg)
 
 *Drexel WiCS Leadership Team*
 
