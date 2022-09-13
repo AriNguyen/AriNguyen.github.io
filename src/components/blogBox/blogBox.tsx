@@ -15,14 +15,14 @@ type blogBoxProps = {
 
 export default function blogBox({article, onClick}: blogBoxProps) {
   return (
-    <div className="blog-box border10" onClick={onClick}>
-    <div className="blog-image border-top10">
-      <img className="border-top10" src={article.image} alt="blog story" />
+    <div className="blog-box border5" onClick={onClick}>
+    <div className="blog-image border-top5">
+      <img className="border-top5" src={article.image} alt="blog story" />
       <div className="blog-hover flex-center">
         <h4 className="font30 weight800">READ MORE</h4>
       </div>
     </div>
-    <div className="blog__info border-bottom10">
+    <div className="blog__info border-bottom5">
       <h4 className="font15 weight800">{article.title}</h4>
       {/* <p className="font12 weight500 padding10">{article.description}</p> */}
       <p className="font12 weight500">{article.date}</p>
