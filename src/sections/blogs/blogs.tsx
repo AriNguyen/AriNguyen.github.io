@@ -25,7 +25,7 @@ type story = {
 
 export default function Blogs() {
   const [isBlogOnClick, setIsBlogOnClick] = useState(false);
-  const [currentViewBlog, setCurentViewBlog] = useState<string | "">("");
+  const [currentViewBlog, setCurentOpenBlog] = useState<string | "">("");
 
   const params = {
     grabCursor: true,
@@ -73,7 +73,7 @@ export default function Blogs() {
   };
 
   let showBlogModal = (story: story) => {
-    setCurentViewBlog(story.blogPath);
+    setCurentOpenBlog(story.blogPath);
     setIsBlogOnClick(true);
     document.body.style.overflow = "hidden"
   };

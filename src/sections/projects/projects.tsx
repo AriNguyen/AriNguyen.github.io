@@ -23,7 +23,7 @@ type project = {
 
 export default function Projects() {
   const [isProjectOnClick, setIsProjectOnClick] = useState(false);
-  const [currentViewProject, setCurentViewProject] = useState<{
+  const [currentViewProject, setCurentOpenProject] = useState<{
     id: string,
     preview: string,
     title: string,
@@ -65,11 +65,13 @@ export default function Projects() {
 
   let closeModal = () => {
     setIsProjectOnClick(false);
+    document.body.style.overflow = "auto";
   };
 
-  let showSuccessModal = (project: project) => {
-    setCurentViewProject(project);
+  let showModal = (project: project) => {
+    setCurentOpenProject(project);
     setIsProjectOnClick(true);
+    document.body.style.overflow = "hidden"
   };
 
   return (
@@ -127,7 +129,7 @@ export default function Projects() {
         </Row>
         <Masonry breakpointCols={projectsBreakpoints} className="my-masonry-grid" columnClassName="gallery">
           {filterResult.map((project) => (
-            <ProjectBox key={project.id} project={project} onClick={() => showSuccessModal(project)} />
+            <ProjectBox key={project.id} project={project} onClick={() => showModal(project)} />
           ))}
         </Masonry>
       </div>
