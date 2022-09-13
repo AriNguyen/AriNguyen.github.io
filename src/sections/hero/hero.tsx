@@ -33,14 +33,14 @@ export default function Hero() {
               <h1 className="weight800 font60">
                 Hi! I'm {<animated.text className="weight800 font60" style={styles}>Ari.</animated.text>}
               </h1>
-              <h1 className="weight800 font40">
+              {/* <h1 className="weight800 font40">
                 Computer Science Student
-              </h1>
+              </h1> */}
               <div className="hero-image-mobile">
-                <img className="hero-image-mobile-img" src="/assets/hero/ava_white.png" alt="hero" />
+                <img className="hero-image-mobile-img" src="/assets/hero/ava-red.png" alt="hero" />
               </div>
               <p className="font15">
-                Rising Senior at Drexel University.<br />
+                Senior Computer Science Student at Drexel University.<br />
                 Interested in the intersection of artificial intelligence and robotics.<br />
                 Enhancing Social Impact through Technology.
               </p>
@@ -68,7 +68,7 @@ export default function Hero() {
           </Col>
           <Col md={12} lg={6}>
             <div >
-              <img className="hero-image" src="/assets/hero/ava_white.png" alt="hero" />
+              <img className="hero-image" src="/assets/hero/ava-red.png" alt="hero" />
             </div>
           </Col>
         </Row>

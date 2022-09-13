@@ -6,7 +6,7 @@ import "./footer.scss";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer white-color-background">
       <div className="wrapper">
         <Row>
           <Col xs={12} sm={6} md={6}>

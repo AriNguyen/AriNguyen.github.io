@@ -9,7 +9,7 @@ import './about.scss';
 
 export default function About() {
   return (
-    <div id="about" className='section-wrapper about'>
+    <div id="about" className='section-wrapper about main-color-background'>
       <div className="wrapper">
         <Title title="ABOUT ME." />
         <div className='flex-center about_text'>

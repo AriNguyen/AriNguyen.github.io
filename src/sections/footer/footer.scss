@@ -1,17 +1,17 @@
 @import '../../style/App.scss';
 
 .footer {
-  background-color: $black-color;
+  // background-color: $black-color;
   width: 100%;
-  min-height: 180px;
+  min-height: 100px;
 
   .footer-box {
-    min-height: 180px;
+    min-height: 100px;
     display: flex;
     align-items: center;
 
     p {
-      color: $white-color;
+      // color: $white-color;
       font-size: 1.1rem;
       margin-left: 30px;
     }
@@ -34,6 +34,8 @@
 
 @media screen and (max-width: 580px) {
   .footer {
+    min-height: 50px;
+
     .footer-box {
       display: flex;
       justify-content: center;

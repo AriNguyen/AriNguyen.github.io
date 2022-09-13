@@ -40,6 +40,7 @@ body {
   line-height: 1.5;
 }
 
+
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
@@ -178,7 +179,8 @@ a {
 }
 
 .main-color-background {
-  background-color: $main-color;
+  background-color: $black-color;
+  color: white;
 }
 
 .white-color-background {

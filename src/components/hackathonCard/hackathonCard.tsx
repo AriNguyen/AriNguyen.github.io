@@ -21,7 +21,7 @@ export default function HackathonCard({ hackathon }: HackathonProps) {
           <img className="" src={hackathon.image} />
       </div>
 
-      <div className="big-info-box flex-center black-color-background padding0">
+      <div className="big-info-box flex-center white-color-background padding0">
           <div>
             {hackathon.title && <h3 className="font24 weight800">{hackathon.title}</h3>}
             {hackathon.subTitle && <h4 className="font15 weight500">{hackathon.subTitle}</h4>}

@@ -22,11 +22,13 @@
       li:hover {
         background-color: $main-color;
         border-radius: 10px;
+        color: $white-color;
       }
     }
 
     .projects-nav-active {
-      background-color: $main-color;
+      background-color: $white-color;
+      border: 2px solid $main-color;
       border-radius: 10px;
     }
   }
