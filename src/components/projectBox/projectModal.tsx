@@ -6,7 +6,7 @@ import { Row } from "react-flexbox-grid";
 
 
 import "./projectModal.scss";
-import style from "./markdown.module.scss";
+import style from "../blogBox/markdown.module.scss";
 
 import "swiper/css/swiper.css";
 import { FcNext, FcPrevious } from 'react-icons/fc';
@@ -73,18 +73,18 @@ export default function ProjectModal({ project, closeModal, onKeyDown }: project
             <Row className="img-showcase" >
               <Swiper {...params}>
                 {project.imgs && project.imgs.map(img => (
-                    <img src={img}></img>
+                  <img src={img}></img>
                 ))}
               </Swiper>
             </Row>
 
             <Row>
               <div>
-              <ReactMarkdown>
-                {md}
-              </ReactMarkdown>
-                </div>
-              
+                <ReactMarkdown>
+                  {md}
+                </ReactMarkdown>
+              </div>
+
             </Row>
 
           </div>

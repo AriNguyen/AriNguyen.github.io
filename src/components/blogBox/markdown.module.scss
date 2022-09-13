@@ -177,9 +177,8 @@
   }
 }
 
-// @media (min-width: 1024px) {
-//   .reactMarkDown h1 {
-//     font-size: 28px;
-//     font-weight: 700;
-//   }
-// }
+@media only screen and (max-width: 440px) {
+  .reactMarkDown {
+    padding: 10px 18px;
+  }
+}

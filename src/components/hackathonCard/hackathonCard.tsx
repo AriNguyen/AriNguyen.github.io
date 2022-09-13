@@ -23,10 +23,10 @@ export default function HackathonCard({ hackathon }: HackathonProps) {
 
       <div className="big-info-box flex-center black-color-background padding0">
           <div>
-            {hackathon.title && <h4 className="font24 weight800">{hackathon.title}</h4>}
-            {hackathon.subTitle && <h3 className="font15 weight500">{hackathon.subTitle}</h3>}
-            {hackathon.title2 && <h4 className="font24 weight800">{hackathon.title2}</h4>}
-            {hackathon.subTitle2 && <h3 className="font15 weight500">{hackathon.subTitle2}</h3>}
+            {hackathon.title && <h3 className="font24 weight800">{hackathon.title}</h3>}
+            {hackathon.subTitle && <h4 className="font15 weight500">{hackathon.subTitle}</h4>}
+            {hackathon.title2 && <h3 className="font24 weight800">{hackathon.title2}</h3>}
+            {hackathon.subTitle2 && <h4 className="font15 weight500">{hackathon.subTitle2}</h4>}
             {hackathon.info && <p className="font15 weight500">{hackathon.info}</p>}
             {hackathon.boxFooter && <p className="font15 weight500">{hackathon.boxFooter}</p>}
           </div>

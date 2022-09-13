@@ -83,7 +83,7 @@ export default function Blogs() {
         {/* <p className="font12">
           Subtitle
         </p> */}
-        <div className="padding30">
+        <div className="swiper-blog-box padding30">
           <Swiper {...params}>
             {stories && stories.map((story) => (
               <div>
