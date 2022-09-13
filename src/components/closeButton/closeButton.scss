@@ -1,0 +1,17 @@
+@import '../../style/App.scss';
+
+.close-icon {
+    background-color: $black-color  !important;
+    position: fixed !important;
+    z-index: 500 !important;
+    cursor: pointer;
+    top: 92%;
+    left: 50%;
+    right: 50%;
+}
+
+.close-icon:hover {
+    background-color: $white-color  !important;
+    border: 1px solid $black-color;
+    color: $black-color;
+}

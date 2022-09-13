@@ -8,6 +8,7 @@ import projects from "./projects.json";
 import Title from "../../components/title/title";
 import ProjectBox from '../../components/projectBox/projectBox';
 import ProjectModal from "../../components/projectBox/projectModal";
+import CloseButton from '../../components/closeButton/closeButton';
 
 type project = {
   id: string,
@@ -23,16 +24,16 @@ type project = {
 export default function Projects() {
   const [isProjectOnClick, setIsProjectOnClick] = useState(false);
   const [currentViewProject, setCurentViewProject] = useState<{
-    id: string, 
-    preview: string, 
-    title: string, 
+    id: string,
+    preview: string,
+    title: string,
     description: string,
     skills: Array<string>,
-    tag: Array<string>, 
-    path: string, 
+    tag: Array<string>,
+    path: string,
     imgs: Array<string>
-  }>({id: "", preview: "", title: "", description: "", skills: [""], tag: [""], path: "", imgs: [""]});
-  
+  }>({ id: "", preview: "", title: "", description: "", skills: [""], tag: [""], path: "", imgs: [""] });
+
   const [filterResult, setFilterResult] = useState(projects);
   const [pickedFilter, setPickedFilter] = useState("all");
   const [isFilterMenuActive, setFilterMenuActive] = useState(false);
@@ -74,7 +75,11 @@ export default function Projects() {
   return (
     <div id="projects" className='section-wrapper white-color-background'>
       {isProjectOnClick && currentViewProject &&
-        <ProjectModal project={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
+        <>
+          <ProjectModal project={currentViewProject} closeModal={closeModal} onKeyDown={closeModal} />
+          <CloseButton onClick={closeModal} />
+        </>
+
       }
       <div className="wrapper">
         <Title title="PROJECTS." />
@@ -122,7 +127,7 @@ export default function Projects() {
         </Row>
         <Masonry breakpointCols={projectsBreakpoints} className="my-masonry-grid" columnClassName="gallery">
           {filterResult.map((project) => (
-            <ProjectBox key={project.id} project={project} onClick={() => showSuccessModal(project)}/>
+            <ProjectBox key={project.id} project={project} onClick={() => showSuccessModal(project)} />
           ))}
         </Masonry>
       </div>

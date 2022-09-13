@@ -8,6 +8,7 @@ import "swiper/css/swiper.css";
 import Title from "../../components/title/title"
 import BlogBox from "../../components/blogBox/blogBox"
 import BlogModal from "../../components/blogBox/blogModal";
+import CloseButton from '../../components/closeButton/closeButton';
 
 import stories from "./blogs.json"
 
@@ -19,6 +20,8 @@ type story = {
   date: string,
   blogPath: string
 }
+
+
 
 export default function Blogs() {
   const [isBlogOnClick, setIsBlogOnClick] = useState(false);
@@ -66,17 +69,22 @@ export default function Blogs() {
 
   let closeModal = () => {
     setIsBlogOnClick(false);
+    document.body.style.overflow = "auto";
   };
 
-  let showSuccessModal = (story: story) => {
+  let showBlogModal = (story: story) => {
     setCurentViewBlog(story.blogPath);
     setIsBlogOnClick(true);
+    document.body.style.overflow = "hidden"
   };
 
   return (
     <div className="section-wrapper main-color-background" id="blogs">
       {isBlogOnClick &&
-        <BlogModal path={currentViewBlog} closeModal={closeModal} onKeyDown={closeModal} />
+        <>
+          <BlogModal path={currentViewBlog} closeModal={closeModal} onKeyDown={closeModal} />
+          <CloseButton onClick={closeModal} />
+        </>
       }
       <div className="wrapper">
         <Title title="BLOGS." />
@@ -87,7 +95,7 @@ export default function Blogs() {
           <Swiper {...params}>
             {stories && stories.map((story) => (
               <div>
-                <BlogBox article={story} onClick={() => showSuccessModal(story)}/>
+                <BlogBox article={story} onClick={() => showBlogModal(story)} />
               </div>
             ))}
           </Swiper>
